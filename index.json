@@ -1,0 +1,12 @@
+{
+	"/security": {
+		"file": "security.md",
+		"type": "text/markdown",
+		"title": "Security at Sourcegraph"
+	},
+	"/enterprise": {
+		"file": "enterprise/enterprise.html",
+		"type": "text/html",
+		"title": "Sourcegraph Enterprise"
+	}
+}
