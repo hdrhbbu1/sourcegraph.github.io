@@ -2,8 +2,6 @@
 
 This repository contains static documents and pages that are hosted at `sourcegraph.com/PAGE`.
 
-See  for the listing of documents.
-
 ## Editing a document
 
 1. Check [`index.json`](./index.json) to see which file to edit. The keys are the page's path underneath `sourcegraph.com`.
