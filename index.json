@@ -1,4 +1,9 @@
 {
+	"/home": {
+		"file": "homepage/index.html",
+		"type": "text/html",
+		"title": "Sourcegraph - Code Intelligence for public and private code."
+	},
 	"/security": {
 		"file": "security.md",
 		"type": "text/markdown",

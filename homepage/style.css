@@ -1,0 +1,311 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* base */
+body {
+    background:#151D28;
+    color:white;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight:300;
+    font-size:16px;
+    line-height:24px;
+    font-weight:300;
+}
+.container {
+    width: 1196px;
+    margin: 0 auto;
+}
+.primary {
+    float:left;
+}
+.secondary {
+    float:right;
+}
+.centered {
+    text-align:center;
+}
+.padded {
+    padding:96px 0px;
+}
+a {
+    color:#329AF0;
+}
+li a {
+    color:white;
+    text-decoration:none;
+}
+h1 {
+    font-size:32px;
+    font-weight:500;
+    margin-bottom:30px;
+    line-height:40px;
+}
+.highlight {
+    border-bottom:4px solid white;
+}
+.highlight.blue {
+    border-color:#329AF0;
+}
+.highlight.purple {
+    border-color:#CC5DE8;
+}
+h2 {
+    font-weight:bold;
+}
+p {
+    margin-bottom:20px;
+    line-height:26px;
+}
+.viewport {
+    height:calc(100% - 48px);
+}
+
+/* TODO: Remove for production */
+.nav {
+    height: 48px;
+    background:white;
+}
+/*  */
+
+
+/* Reused Elements */
+
+.arrow {
+    width:24px;
+    height:16px;
+    margin-top:18px;
+    margin-right:4px;
+}
+
+
+/* Sections */
+
+/** Welcome **/
+.welcome {
+    padding-top:48px;
+    position:relative;
+}
+.logo {
+    height: 24px;
+    width: 170px;
+    display:block;
+    color:transparent;
+    background:url('images/logo.svg');
+    background-size: 170px 24px;
+}
+.marketing-navigation .secondary ul {
+    margin:0px;
+}
+.marketing-navigation .secondary li {
+    margin:0;
+    display:inline-block;
+    margin-left:24px;
+}
+.marketing-navigation .secondary a {
+    padding:14px 0px;
+}
+.sprinkles {
+    background:url('images/sprinkles@2x.png');
+    background-size:1492px 844px;
+    background-repeat:no-repeat;
+    background-position:center calc(50% + 110px);
+}
+.sub-sprinkles {
+    background:url('images/sprinkles@2x.png');
+    background-size:1492px 844px;
+    background-repeat:no-repeat;
+    background-position:center -731px;
+}
+.welcome-copy {
+    color:white;
+    width:466px;
+    position:absolute;
+    left:50%;
+    margin-left:-598px;
+    top:50%;
+    margin-top:-100px;
+}
+/* action blocks */
+.actions {
+    width:588px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-228px;
+    margin-left:12px;
+}
+.action {
+    background:#233043;
+    border-radius:4px;
+    margin-bottom:24px;
+    color:white;
+    height:96px;
+    box-shadow:0px 2px 4px rgba(0,0,0,0.24);
+    padding:24px 24px;
+    cursor:pointer;
+    position:relative;
+}
+.action-icon {
+    float:right;    
+}
+.action:hover {
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+}
+.action:active {
+    top:2px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+.action:last-child {
+    margin-bottom:0px;
+}
+.action-content {
+    float:left;
+}
+.action-title {
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:3px;
+}
+.action-description {
+    font-size:16px;
+    font-weight:300;
+}
+/* symbols */
+.more {
+    font-size:14px;
+    color:#5D7EAC;
+    text-transform:uppercase;
+    letter-spacing:10%;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    width:100px;
+    height:35px;
+    position:absolute;
+    bottom:60px;
+    left:50%;
+    margin-left:-50px;
+    background:url('images/more.svg') center bottom no-repeat;
+    background-size:17px 9.5px;
+}
+.more:active {
+    bottom:58px;
+}
+
+/** Features **/
+
+.feature {
+    width:1196px;
+    padding:120px 0px;
+    margin:0px auto;
+}
+.feature-content {
+    width:464px;
+    margin-top:148px;
+}
+.feature-hero {
+    width:708px;
+    height:600px;
+    background:#233043;
+}
+.feature.left .feature-content {
+    float:left;
+}
+.feature.left .feature-hero {
+    float:right;
+    margin-right:-124px;
+}
+.feature.right .feature-content {
+    float:right;
+    margin-left:49px;
+}
+.feature.right .feature-hero {
+    float:left;
+    margin-left:-122px;
+}
+
+/** Logos **/
+
+.logos {
+    background:#233043;
+}
+.logos h1 {
+    margin-bottom:40px;
+}
+
+/** Quote **/
+.quote-meta * {
+    line-height:48px;
+    height:48px;
+    vertical-align: middle;
+    margin-right:24px;
+}
+.quote-meta *:last-child {
+    margin-right:0px;
+}
+.quote-meta span {
+    font-weight:600;
+}
+
+/** Footer **/
+.footer ul {
+    width:221px;
+    margin:0px;
+    float:left;
+    margin-bottom:64px;
+}
+.footer li a {
+    font-size:16px;
+    line-height:24px;
+    margin-bottom:12px;
+    display:inline-block;
+}
+.footer .action {
+    width: 586px;
+    float:left;
+    margin-right:24px;
+    margin-bottom:48px;
+}
+.footer .action .action-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    width:48px;
+    height:48px;
+    background-color:#31445E;
+    border-radius:24px;
+}
+.footer .action .action-icon.helm {
+    background-image:url('images/helm.svg');
+}
+.footer .action .action-icon.sunglasses {
+    background-image:url('images/sunglasses.svg');
+}
+.footer .action:last-child {
+    margin-right:0px;
+}
+.footer .action .action-content {
+    float:right;
+    width:calc(100% - 72px);
+}
+.footer .action .action-icon {
+    float:left;
+    margin-right:24px;
+}
+.footer {
+    margin-bottom:80px;
+}
+.footer-tagline .primary span, .footer-tagline .primary a  {
+    display:inline-block;
+    line-height:24px;
+    height:24px;
+    margin-right:24px;
+}
+.footer-tagline img {
+    vertical-align: middle;
+}
