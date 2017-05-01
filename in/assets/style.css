@@ -184,6 +184,7 @@ strong {
     margin-left:12px;
 }
 .action {
+    display:block;
     background:#233043;
     border-radius:4px;
     margin-bottom:24px;
