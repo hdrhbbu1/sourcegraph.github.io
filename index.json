@@ -28,5 +28,20 @@
 		"file": "contact.md",
 		"type": "text/markdown",
 		"title": "Contact Sourcegraph"
+	},
+	"/enterprise": {
+		"file": "enterprise.md",
+		"type": "text/markdown",
+		"title": "Enterprise code intelligence"
+	},
+	"/pricing": {
+		"file": "pricing.md",
+		"type": "text/markdown",
+		"title": "Pricing"
+	},
+	"/plan": {
+		"file": "plan.md",
+		"type": "text/markdown",
+		"title": "Sourcegraph Master Plan"
 	}
 }

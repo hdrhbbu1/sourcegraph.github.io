@@ -54,6 +54,7 @@ Here&#39;s how to fix it and bring basic code intelligence to every developer, e
   * Provide the infrastructure for language server developers to measure coverage and accuracy over a large dataset of open-source code — **in progress**
 2. Make it easy for projects to supply the necessary configuration (if any) so that everyone gets code intelligence on the project&#39;s code
 3. Make it quick and easy to add/install code intelligence for any language in your tools of choice
+
 The end result is that anytime you look at code, you have the full power of a perfectly configured IDE.
 
 See how good your team&#39;s dev tools are
