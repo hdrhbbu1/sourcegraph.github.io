@@ -4,29 +4,31 @@
         {% include head.html %}
         <title>{{title}}</title>        
     </head>
-    <body>
+    <body class="light-theme">
 
-        <div class="marketing-navigation container padded welcome">
-            <div class="primary">
-                <a href="#" class="logo">Sourcegraph</a>
-            </div>
-            <div class="secondary">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-        </div>    
-
-        <div class="container padded centered">
-            <h1>{{page.title}}</h1>
-            <h2>{{page.subtitle}}</h2>
+        <div class="static-header">
+            <div class="marketing-navigation container welcome">
+                <div class="cf">
+                    <div class="primary">
+                        <a href="#" class="logo">Sourcegraph</a>
+                    </div>
+                    <div class="secondary">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="centered cf markdown-header">
+                    <h1>{{page.title}}</h1>
+                    <h3>{{page.subtitle}}</h3>
+                </div>
+            </div>    
         </div>
-        
 
-        <div class="container markdown-content">
+        <div class="container markdown-content padded">
 
             {{ content }}
 

@@ -3,18 +3,11 @@ layout: markdown
 title: Security is core to everything we do 
 ---
 
-We know that source code is one of your most sensitive assets. Every component of Sourcegraph was designed with security in mind. We&#39;ve detailed our strict production security guidelines for customers below.
+# We know that source code is one of your most sensitive assets. Every component of Sourcegraph was designed with security in mind. We&#39;ve detailed our strict production security guidelines for customers below.
 
 We don&#39;t stop at keeping your code safe. When your team&#39;s developers use Sourcegraph, they can discover and use your own security best practices much more easily in your own code. Your team can also more easily enforce security standards during code review.
 
 If you have specific questions or concerns, contact us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>.
-
-
-{% 
-    include feature.html 
-    title="My favourite feature" 
-    description="Here's some more info" 
-%}
 
 ## Access controls 
 

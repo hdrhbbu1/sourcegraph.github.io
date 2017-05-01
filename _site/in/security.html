@@ -6,46 +6,37 @@
 <link href="assets/style.css" rel="stylesheet" />
         <title></title>        
     </head>
-    <body>
+    <body class="light-theme">
 
-        <div class="marketing-navigation container padded welcome">
-            <div class="primary">
-                <a href="#" class="logo">Sourcegraph</a>
-            </div>
-            <div class="secondary">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-        </div>    
-
-        <div class="container padded centered">
-            <h1>Security is core to everything we do</h1>
-            <h2></h2>
+        <div class="static-header">
+            <div class="marketing-navigation container welcome">
+                <div class="cf">
+                    <div class="primary">
+                        <a href="#" class="logo">Sourcegraph</a>
+                    </div>
+                    <div class="secondary">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="centered cf markdown-header">
+                    <h1>Security is core to everything we do</h1>
+                    <h3></h3>
+                </div>
+            </div>    
         </div>
-        
 
-        <div class="container markdown-content">
+        <div class="container markdown-content padded">
 
-            <p>We know that source code is one of your most sensitive assets. Every component of Sourcegraph was designed with security in mind. We've detailed our strict production security guidelines for customers below.</p>
+            <h1 id="we-know-that-source-code-is-one-of-your-most-sensitive-assets-every-component-of-sourcegraph-was-designed-with-security-in-mind-weve-detailed-our-strict-production-security-guidelines-for-customers-below">We know that source code is one of your most sensitive assets. Every component of Sourcegraph was designed with security in mind. We've detailed our strict production security guidelines for customers below.</h1>
 
 <p>We don't stop at keeping your code safe. When your team's developers use Sourcegraph, they can discover and use your own security best practices much more easily in your own code. Your team can also more easily enforce security standards during code review.</p>
 
 <p>If you have specific questions or concerns, contact us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>.</p>
-
-<div class="feature left cf" id="feature-jump">
-    <a name="features"></a>
-    <div class="feature-content">
-        <h1>My favourite feature</h1>
-        <p>Here's some more info</p>
-    </div>
-    <div class="feature-hero">
-        Screenshot
-    </div>
-</div>
 
 <h2 id="access-controls">Access controls</h2>
 
@@ -82,7 +73,7 @@
 
 <p>We provide monetary rewards, up to $4,000, for open bounties. This is determined based on the percentage of users impacted, the likelihood of encountering the vulnerability under normal use of the site, and the severity of potential service disruption or data leakage.</p>
 
-<div class="quote container centered padded">
+<div class="quote container centered padded-top">
     <h1 class="quote-text">"Learning a new code base using <a href="#">@srcgraph</a> is extra dope! <a href="#">pic.twitter.com/6YWeYyyYZo</a>"</h1>
     <div class="quote-meta">
         <img src="assets/images/kelsey.png" />

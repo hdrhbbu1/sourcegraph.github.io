@@ -11,14 +11,46 @@ html {
 /* base */
 body {
     height:100%;
-    background:#151D28;
-    color:white;
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight:300;
     font-size:16px;
     line-height:24px;
     font-weight:300;
 }
+
+body.dark-theme {
+    background-color:#151D28;
+    color:white;
+}
+body.dark-theme li a {
+    color:white;
+}
+body.light-theme {
+    background:#F8F9FA;
+    color: #233043;
+}
+body.light-theme li a {
+    color: #233043;
+}
+body.light-theme .static-header {
+    background:#151D28;
+}
+body.light-theme .static-header {
+    background:#151D28;
+    color:white;
+}
+.static-header h3 {
+    font-weight:normal;
+}
+body.light-theme .static-header li a {
+    color: white;
+}
+
+
+.markdown-header {
+    padding: 56px 0px 96px;
+}
+
 .container {
     width: 1196px;
     margin: 0 auto;
@@ -35,11 +67,13 @@ body {
 .padded {
     padding:96px 0px;
 }
+.padded-top {
+    padding:96px 0px 0px 0px;
+}
 a {
     color:#329AF0;
 }
 li a {
-    color:white;
     text-decoration:none;
 }
 h1 {
@@ -59,6 +93,12 @@ h1 {
 }
 h2 {
     font-weight:bold;
+    font-size: 24px;
+    margin-bottom:24px;
+    margin-top:32px;
+}
+h3 {
+    font-style:bold;
 }
 p {
     margin-bottom:20px;
@@ -70,12 +110,15 @@ p {
 strong {
     font-weight:bold;
 }
-.markdown-content ul {
+.markdown-content ul, .markdown-content ol {
     list-style: disc;
     margin-left:40px;
     margin-bottom:20px;
 }
-.markdown-content div.content-block {
+.markdown-content ul {
+    list-style: decimal;
+}
+.markdown-content div.content-block, .markdown-content p, .markdown-content ul, .markdown-content ol {
     margin-bottom:20px;
 }
 
@@ -151,6 +194,11 @@ strong {
     cursor:pointer;
     position:relative;
 }
+body.light-theme .action {
+    background: white;
+    color:#233043;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.08);
+}
 .action-icon {
     float:right;    
 }
@@ -160,6 +208,13 @@ strong {
 .action:active {
     top:2px;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+body.light-theme .action:hover {
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.08);
+}
+body.light-theme .action:active {
+    top:2px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.0.08);
 }
 .action:last-child {
     margin-bottom:0px;
@@ -279,6 +334,9 @@ strong {
     height:48px;
     background-color:#31445E;
     border-radius:24px;
+}
+body.light-theme .footer .action .action-icon {
+    background-color:#C9D4E3;
 }
 .footer .action .action-icon.helm {
     background-image:url('images/helm.svg');
