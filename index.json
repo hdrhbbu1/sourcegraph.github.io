@@ -2,7 +2,7 @@
 	"/home": {
 		"file": "homepage/index.html",
 		"type": "text/html",
-		"title": "Sourcegraph - Code Intelligence for public and private code."
+		"title": "Sourcegraph - Code search and code intelligence for public and private code."
 	},
 	"/security": {
 		"file": "security.md",
@@ -13,5 +13,20 @@
 		"file": "enterprise/enterprise.html",
 		"type": "text/html",
 		"title": "Sourcegraph Enterprise"
+	},
+	"/about": {
+		"file": "about.md",
+		"type": "text/markdown",
+		"title": "The pace at which humans can write code is the only thing that stands between us and flying cars, a habitat on Mars, and a cure for cancer."
+	},
+	"/terms": {
+		"file": "terms.md",
+		"type": "text/markdown",
+		"title": "Sourcegraph Terms of Service"
+	},
+	"/contact": {
+		"file": "contact.md",
+		"type": "text/markdown",
+		"title": "Contact Sourcegraph"
 	}
 }
