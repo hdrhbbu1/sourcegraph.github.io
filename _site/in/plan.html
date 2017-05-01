@@ -6,29 +6,31 @@
 <link href="assets/style.css" rel="stylesheet" />
         <title></title>        
     </head>
-    <body>
+    <body class="light-theme">
 
-        <div class="marketing-navigation container padded welcome">
-            <div class="primary">
-                <a href="#" class="logo">Sourcegraph</a>
-            </div>
-            <div class="secondary">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-        </div>    
-
-        <div class="container padded centered">
-            <h1>Sourcegraph Master Plan</h1>
-            <h2>What we're building and why it matters</h2>
+        <div class="static-header">
+            <div class="marketing-navigation container welcome">
+                <div class="cf">
+                    <div class="primary">
+                        <a href="#" class="logo">Sourcegraph</a>
+                    </div>
+                    <div class="secondary">
+                        <ul>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/pricing">Pricing</a></li>
+                            <!--<li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="centered cf markdown-header">
+                    <h1>Sourcegraph Master Plan</h1>
+                    <h3>What we're building and why it matters</h3>
+                </div>
+            </div>    
         </div>
-        
 
-        <div class="container markdown-content">
+        <div class="container markdown-content padded">
 
             <p>Today, Sourcegraph gives you the power of an IDE (jump-to-def, search, and find-references) when reading code on the web, either on <a href="/index">Sourcegraph.com</a>, or on GitHub with the <a target="blank" href="https://text.sourcegraph.com/the-sourcegraph-test-v0-9-12-more-steps-to-better-code-e5c281850c">Sourcegraph for GitHub Chrome extension</a>.</p>
 
