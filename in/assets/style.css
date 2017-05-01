@@ -67,13 +67,9 @@ p {
 .viewport {
     height:calc(100% - 48px);
 }
-
-/* TODO: Remove for production */
-.nav {
-    height: 48px;
-    background:white;
+strong {
+    font-weight:bold;
 }
-/*  */
 
 
 /* Reused Elements */
