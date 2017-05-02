@@ -52,7 +52,7 @@ body.light-theme .static-header li a {
 }
 
 .container {
-    width: 1196px;
+    width: 100%;
     margin: 0 auto;
 }
 .primary {
