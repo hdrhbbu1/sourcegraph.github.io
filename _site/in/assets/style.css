@@ -302,10 +302,12 @@ body.light-theme .action:active {
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
     .feature.left .feature-hero-image {
-        background:url('images/search@2x.png') ;
+        background-image: url('images/search@2x.png') ;
+        background-size: 708px 600px;
     }
     .feature.right .feature-hero-image {
-        background:url('images/codesearch@2x.png');
+        background: url('images/codesearch@2x.png');
+        background-size: 708px 600px;
     }
 }
 
