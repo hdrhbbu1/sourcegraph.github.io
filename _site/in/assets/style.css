@@ -52,7 +52,7 @@ body.light-theme .static-header li a {
 }
 
 .container {
-    width: 1196px;
+    width: 100%;
     margin: 0 auto;
 }
 .primary {
@@ -184,6 +184,7 @@ strong {
     margin-left:12px;
 }
 .action {
+    display:block;
     background:#233043;
     border-radius:4px;
     margin-bottom:24px;
