@@ -387,7 +387,41 @@ body.light-theme .footer .action .action-icon {
     line-height:24px;
     height:24px;
     margin-right:24px;
-}
-.footer-tagline img {
     vertical-align: middle;
+}
+.footer-tagline .primary a {
+    width: 24px;
+    vertical-align: middle;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body.light-theme .footer-tagline .twitter {
+    background-image: url('images/twitter-dark.svg');
+}
+body.dark-theme .footer-tagline .twitter {
+    background-image: url('images/twitter.svg');
+}
+body.light-theme .footer-tagline .linkedin {
+    background-image: url('images/linkedin-dark.svg');
+}
+body.dark-theme .footer-tagline .linkedin {
+    background-image: url('images/linkedin.svg');
+}
+body.light-theme .footer-tagline .github {
+    background-image: url('images/github-dark.svg');
+}
+body.dark-theme .footer-tagline .github {
+    background-image: url('images/github.svg');
+}
+.footer-logo {
+    display: block;
+    width: 170px;
+    height: 36px;
+}
+body.dark-theme .footer-logo {
+    background: url('images/sg-logo-with-tag--white.svg');
+}
+body.light-theme .footer-logo {
+    background: url('images/sg-logo-with-tag--color.svg');
 }
