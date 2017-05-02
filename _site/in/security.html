@@ -1,144 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link href="assets/reset.css" rel="stylesheet" />
-<link href="assets/clearfix.css" rel="stylesheet" />
-<link href="assets/style.css" rel="stylesheet" />
-        <title></title>        
-    </head>
-    <body class="light-theme">
 
-        <div class="static-header">
-            <div class="marketing-navigation container welcome">
-                <div class="cf">
-                    <div class="primary">
-                        <a href="#" class="logo">Sourcegraph</a>
-                    </div>
-                    <div class="secondary">
-                        <ul>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/pricing">Pricing</a></li>
-                            <!--<li><a href="#">Careers</a></li>
+<head>
+    <link href="assets/reset.css" rel="stylesheet" />
+    <link href="assets/clearfix.css" rel="stylesheet" />
+    <link href="assets/style.css" rel="stylesheet" />
+    <title></title>
+</head>
+
+<body class="light-theme">
+
+    <div class="static-header">
+        <div class="marketing-navigation container welcome">
+            <div class="cf">
+                <div class="primary">
+                    <a href="#" class="logo">Sourcegraph</a>
+                </div>
+                <div class="secondary">
+                    <ul>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/pricing">Pricing</a></li>
+                        <!--<li><a href="#">Careers</a></li>
                             <li><a href="#">Blog</a></li>-->
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-                <div class="centered cf markdown-header">
-                    <h1>Security is core to everything we do</h1>
-                    <h3></h3>
+            </div>
+            <div class="centered cf markdown-header">
+                <h1>Security is core to everything we do</h1>
+                <h3></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container markdown-content padded">
+
+        <h1 id="we-know-that-source-code-is-one-of-your-most-sensitive-assets-every-component-of-sourcegraph-was-designed-with-security-in-mind-weve-detailed-our-strict-production-security-guidelines-for-customers-below">We know that source code is one of your most sensitive assets. Every component of Sourcegraph was designed with security
+            in mind. We've detailed our strict production security guidelines for customers below.</h1>
+
+        <p>We don't stop at keeping your code safe. When your team's developers use Sourcegraph, they can discover and use your
+            own security best practices much more easily in your own code. Your team can also more easily enforce security
+            standards during code review.</p>
+
+        <p>If you have specific questions or concerns, contact us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>.</p>
+
+        <h2 id="access-controls">Access controls</h2>
+
+        <ul>
+            <li>Access to all internal systems is protected by multi-factor authentication. Access is restricted to those who
+                require it to perform their job, and is regularly reviewed and revoked upon termination or when no longer
+                needed.</li>
+            <li>All application and user access logs are stored centrally and monitored.</li>
+            <li>Company policy prevents customer data from being downloaded to portable devices, such as laptops.</li>
+            <li>Device management is in place for remote wiping of all devices.</li>
+        </ul>
+
+        <h2 id="network-security">Network security</h2>
+
+        <ul>
+            <li>All production systems are hosted on Google Cloud Platform (https://cloud.google.com/security/), where all storage
+                volumes are encrypted at rest.</li>
+            <li>All external network communication between production services occur over HTTPS / TLS.</li>
+            <li>Authentication is handled using Auth0 (https://auth0.com/security), so Sourcegraph never stores your login credentials.</li>
+            <li>External access to production systems is restricted by firewall to restricted IP ranges.</li>
+            <li>Our dedicated security team at Sourcegraph handles all security escalations, and is available 24/7.</li>
+            <li>Customer data can be deleted from all primary and backup systems within 7 days of request.</li>
+            <li>Recurring third party security assessments available on request</li>
+        </ul>
+
+        <h2 id="site-security">Site security</h2>
+
+        <ul>
+            <li>All data from Sourcegraph.com (https://sourcegraph.com/) is transmitted over HTTPS.</li>
+            <li>Monitoring services alert our 24/7 support team of potential attacks.</li>
+            <li>Annual third party security assessments available on request - last report February 2017</li>
+        </ul>
+
+        <h2 id="bug-reports">Bug reports</h2>
+
+        <p>If you think that you have found a security issue, please email us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>.
+            Please do not publicly disclose the issue until we’ve addressed it.</p>
+
+        <p>We provide monetary rewards, up to $4,000, for open bounties. This is determined based on the percentage of users
+            impacted, the likelihood of encountering the vulnerability under normal use of the site, and the severity of
+            potential service disruption or data leakage.</p>
+
+        <div class="quote container centered padded-top">
+            <h1 class="quote-text">"Learning a new code base using <a href="#">@srcgraph</a> is extra dope! <a href="#">pic.twitter.com/6YWeYyyYZo</a>"</h1>
+            <div class="quote-meta">
+                <img src="assets/images/kelsey.png" />
+                <span>Kelsey Hightower</span>
+                <a href="#">@kelseyhightower</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer container">
+        <div class="footer-actions cf">
+            <div class="action">
+                <div class="action-content">
+                    <div class="action-title">Master plan</div>
+                    <div class="action-description">What we're building and why it matters</div>
                 </div>
-            </div>    
-        </div>
-
-        <div class="container markdown-content padded">
-
-            <h1 id="we-know-that-source-code-is-one-of-your-most-sensitive-assets-every-component-of-sourcegraph-was-designed-with-security-in-mind-weve-detailed-our-strict-production-security-guidelines-for-customers-below">We know that source code is one of your most sensitive assets. Every component of Sourcegraph was designed with security in mind. We've detailed our strict production security guidelines for customers below.</h1>
-
-<p>We don't stop at keeping your code safe. When your team's developers use Sourcegraph, they can discover and use your own security best practices much more easily in your own code. Your team can also more easily enforce security standards during code review.</p>
-
-<p>If you have specific questions or concerns, contact us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>.</p>
-
-<h2 id="access-controls">Access controls</h2>
-
-<ul>
-  <li>Access to all internal systems is protected by multi-factor authentication. Access is restricted to those who require it to perform their job, and is regularly reviewed and revoked upon termination or when no longer needed.</li>
-  <li>All application and user access logs are stored centrally and monitored.</li>
-  <li>Company policy prevents customer data from being downloaded to portable devices, such as laptops.</li>
-  <li>Device management is in place for remote wiping of all devices.</li>
-</ul>
-
-<h2 id="network-security">Network security</h2>
-
-<ul>
-  <li>All production systems are hosted on Google Cloud Platform (https://cloud.google.com/security/), where all storage volumes are encrypted at rest.</li>
-  <li>All external network communication between production services occur over HTTPS / TLS.</li>
-  <li>Authentication is handled using Auth0 (https://auth0.com/security), so Sourcegraph never stores your login credentials.</li>
-  <li>External access to production systems is restricted by firewall to restricted IP ranges.</li>
-  <li>Our dedicated security team at Sourcegraph handles all security escalations, and is available 24/7.</li>
-  <li>Customer data can be deleted from all primary and backup systems within 7 days of request.</li>
-  <li>Recurring third party security assessments available on request</li>
-</ul>
-
-<h2 id="site-security">Site security</h2>
-
-<ul>
-  <li>All data from Sourcegraph.com (https://sourcegraph.com/) is transmitted over HTTPS.</li>
-  <li>Monitoring services alert our 24/7 support team of potential attacks.</li>
-  <li>Annual third party security assessments available on request - last report February 2017</li>
-</ul>
-
-<h2 id="bug-reports">Bug reports</h2>
-
-<p>If you think that you have found a security issue, please email us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>. Please do not publicly disclose the issue until we’ve addressed it.</p>
-
-<p>We provide monetary rewards, up to $4,000, for open bounties. This is determined based on the percentage of users impacted, the likelihood of encountering the vulnerability under normal use of the site, and the severity of potential service disruption or data leakage.</p>
-
-<div class="quote container centered padded-top">
-    <h1 class="quote-text">"Learning a new code base using <a href="#">@srcgraph</a> is extra dope! <a href="#">pic.twitter.com/6YWeYyyYZo</a>"</h1>
-    <div class="quote-meta">
-        <img src="assets/images/kelsey.png" />
-        <span>Kelsey Hightower</span>
-        <a href="#">@kelseyhightower</a>
-    </div>
-</div>
-
-
-        </div>
-        
-        <div class="footer container">
-    <div class="footer-actions cf">
-        <div class="action">
-            <div class="action-content">
-                <div class="action-title">Master plan</div>
-                <div class="action-description">What we're building and why it matters</div>
+                <div class="action-icon helm"></div>
             </div>
-            <div class="action-icon helm"></div>
-        </div>
-        <div class="action">
-            <div class="action-content">
-                <div class="action-title">Join the team</div>
-                <div class="action-description">Come build the global code graph</div>
+            <div class="action">
+                <div class="action-content">
+                    <div class="action-title">Join the team</div>
+                    <div class="action-description">Come build the global code graph</div>
+                </div>
+                <div class="action-icon sunglasses"></div>
             </div>
-            <div class="action-icon sunglasses"></div>
+        </div>
+        <div class="footer-links cf">
+            <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="https://text.sourcegraph.com">Blog</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="/plan">Master plan</a></li>
+                <!--<li><a href="#">Case study</a></li>-->
+                <!--<li><a href="#">Docs</a></li>-->
+            </ul>
+            <ul>
+                <li><a href="/pricing">Pricing</a></li>
+                <li><a href="/enterprise">Enterprise</a></li>
+            </ul>
+            <ul>
+                <li><a href="/terms">Terms</a></li>
+                <li><a href="/security">Security</a></li>
+                <li><a href="/privacy">Privacy</a></li>
+            </ul>
+            <ul>
+                <!--<li><a href="#">Beta program</a></li>-->
+                <li><a href="https://boards.greenhouse.io/sourcegraph">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-tagline">
+            <div class="primary">
+                <span>&copy; 2017 Sourcegraph, Inc.</span>
+                <a href="#"><img src="assets/images/twitter.svg" /></a>
+                <a href="#"><img src="assets/images/github.svg" /></a>
+                <a href="#"><img src="assets/images/linkedin.svg" /></a>
+            </div>
+            <div class="secondary">
+                <img src="assets/images/logo-mono.svg" />
+            </div>
         </div>
     </div>
-    <div class="footer-links cf">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Master plan</a></li>
-            <li><a href="#">Case study</a></li>
-            <li><a href="#">Docs</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Enterprise</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Security</a></li>
-            <li><a href="#">Privacy</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Beta program</a></li>
-            <li><a href="#">Careers</a></li>
-        </ul>
-    </div>
-    <div class="footer-tagline">
-        <div class="primary">
-            <span>&copy; 2017 Sourcegraph, Inc.</span>
-            <a href="#"><img src="assets/images/twitter.svg" /></a>
-            <a href="#"><img src="assets/images/github.svg" /></a>
-            <a href="#"><img src="assets/images/linkedin.svg" /></a>
-        </div>
-        <div class="secondary">
-            <img src="assets/images/logo-mono.svg" />
-        </div>
-    </div>
-</div>
 
-    </body>
+</body>
+
 </html>
