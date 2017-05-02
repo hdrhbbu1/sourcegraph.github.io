@@ -5,43 +5,38 @@
 		"title": "Sourcegraph - Code search and code intelligence for public and private code."
 	},
 	"/security": {
-		"file": "security.md",
-		"type": "text/markdown",
+		"file": "security.html",
+		"type": "text/html",
 		"title": "Security at Sourcegraph"
 	},
 	"/enterprise": {
 		"file": "enterprise/enterprise.html",
 		"type": "text/html",
-		"title": "Sourcegraph Enterprise"
+		"title": "Enterprise code intelligence"
 	},
 	"/about": {
-		"file": "about.md",
-		"type": "text/markdown",
+		"file": "about.html",
+		"type": "text/html",
 		"title": "The pace at which humans can write code is the only thing that stands between us and flying cars, a habitat on Mars, and a cure for cancer."
 	},
 	"/terms": {
-		"file": "terms.md",
-		"type": "text/markdown",
+		"file": "terms.html",
+		"type": "text/html",
 		"title": "Sourcegraph Terms of Service"
 	},
 	"/contact": {
-		"file": "contact.md",
-		"type": "text/markdown",
+		"file": "contact.html",
+		"type": "text/html",
 		"title": "Contact Sourcegraph"
 	},
-	"/enterprise": {
-		"file": "enterprise.md",
-		"type": "text/markdown",
-		"title": "Enterprise code intelligence"
-	},
 	"/pricing": {
-		"file": "pricing.md",
-		"type": "text/markdown",
+		"file": "pricing.html",
+		"type": "text/html",
 		"title": "Pricing"
 	},
 	"/plan": {
-		"file": "plan.md",
-		"type": "text/markdown",
+		"file": "plan.html",
+		"type": "text/html",
 		"title": "Sourcegraph Master Plan"
 	}
 }
