@@ -165,6 +165,7 @@ strong {
     background-repeat:no-repeat;
     background-position:center calc(50% + 110px);
 }
+
 .welcome-copy {
     color:white;
     width:466px;
@@ -268,7 +269,12 @@ body.light-theme .action:active {
 .feature-hero {
     width:708px;
     height:600px;
-    background:#233043;
+    position: relative;
+}
+.feature-hero-image {
+    width:708px;
+    height:600px;
+    box-shadow:0px 2px 4px rgba(0,0,0,0.3);
 }
 .feature.left .feature-content {
     float:left;
@@ -284,6 +290,12 @@ body.light-theme .action:active {
 .feature.right .feature-hero {
     float:left;
     margin-left:-122px;
+}
+.feature.left .feature-hero-image {
+    background:url('images/search.png');
+}
+.feature.right .feature-hero-image {
+    background:url('images/codesearch.png');
 }
 
 /** Logos **/
