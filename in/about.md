@@ -10,7 +10,7 @@ We believe code intelligence can help bring the future sooner. Our long-term vis
 * Make code review continuous and intelligent
 * Increase the amount and quality of open-source code
 
-Read more at [sourcegraph.com/plan](https://sourcegraph.com/plan).
+Read more at [sourcegraph.com/plan](/plan).
 
 ## Values
 <img width="120px" src="assets/images/about-hash-people.png"> <img width="120px" src="assets/images/about-hash-journey.png"> <img width="120px" src="assets/images/about-hash-progress.png">
