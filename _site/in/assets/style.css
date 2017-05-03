@@ -271,14 +271,15 @@ body.light-theme .action:active {
     margin-top:148px;
 }
 .feature-hero {
-    width:708px;
-    height:600px;
     position: relative;
 }
 .feature-hero-image {
     width:708px;
     height:600px;
     box-shadow:0px 2px 4px rgba(0,0,0,0.3);
+}
+.feature-hero img {
+    display:none; 
 }
 .feature.left .feature-content {
     float:left;
@@ -443,4 +444,72 @@ body.light-theme .footer-logo {
 }
 .logo-array img:last-child {
     margin-right: 0px;
+}
+
+
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1200px) {
+    .container,
+    .feature {
+        width: calc(100% - 48px);
+    }
+    .action {
+        height: auto;
+    }
+    .footer .action {
+        width: 100%; 
+    }
+    .footer ul {
+        width: 33%;
+    }
+    .welcome-copy {
+        position: relative; 
+        left: initial;
+        margin-left: auto;
+        top: initial;
+        margin-top: 120px;
+        margin-right: auto;
+    }
+    .actions {
+        position: relative; 
+        top: initial;
+        left: initial;
+        margin: 50px auto;
+    }
+    .sprinkles {
+        background-position: calc(50% + 340px) calc(50% + -60px);
+    }
+    img {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .feature.right .feature-content, 
+    .feature.right .feature-hero {
+        float: none;
+        margin: 0px;
+    } 
+    .feature-content {
+        width: auto;
+        margin-top: 0px; 
+    }
+    .feature-hero {
+        width: 100%;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .feature-hero-image {
+        background: none !important;
+        height: auto;
+        width: auto;
+        margin-top: 60px;
+    }
+    .feature-hero img {
+        display: block;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
