@@ -16,3 +16,11 @@ The changes will be live on Sourcegraph.com within seconds of pushing.
 2. Create the file referenced in the entry.
 
 The new document will be live on Sourcegraph.com within seconds of pushing.
+
+## Adding navigation
+
+### To a workspace
+`<a href="/owner/repo/file?rev"...`
+
+### To a static page
+`<a href="pagename"...` (note there is no leading /)
