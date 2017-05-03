@@ -434,12 +434,11 @@ body.light-theme .footer-logo {
 
 .logo-array {
     display: block;
-    margin: 20px auto 40px;
-    text-align: center;
+    margin: 30px auto 40px;
 }
 .logo-array img {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 50px;
     vertical-align: middle;
 }
 .logo-array img:last-child {
