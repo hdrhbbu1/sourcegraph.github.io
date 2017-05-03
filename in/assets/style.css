@@ -70,6 +70,9 @@ body.light-theme .static-header li a {
 .padded-top {
     padding:96px 0px 0px 0px;
 }
+.padded-bottom {
+    padding-bottom: 96px;
+}
 a {
     color:#329AF0;
 }
@@ -181,7 +184,7 @@ strong {
     position:absolute;
     top:50%;
     left:50%;
-    margin-top:-167px;
+    margin-top:-108px;
     margin-left:12px;
 }
 .action {

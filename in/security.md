@@ -41,8 +41,8 @@ We provide monetary rewards, up to $4,000, for open bounties. This is determined
 
 {%  
     include twitter.html 
-    tweet="Learning a new code base using <a href=\"#\">@srcgraph</a> is extra dope! <a href=\"#\">pic.twitter.com/6YWeYyyYZo</a>" 
+    tweet="Learning a new code base using <a href=\"https://twitter.com/srcgraph\">@srcgraph</a> is extra dope!" 
     name="Kelsey Hightower" 
-    handle="@kelseyhightower" 
+    handle="kelseyhightower" 
     avatar="kelsey.png" 
 %} 
