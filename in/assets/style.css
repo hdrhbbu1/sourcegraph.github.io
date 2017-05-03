@@ -431,3 +431,17 @@ body.dark-theme .footer-logo {
 body.light-theme .footer-logo {
     background: url('images/sg-logo-with-tag--color.svg');
 }
+
+.logo-array {
+    display: block;
+    margin: 20px auto 40px;
+    text-align: center;
+}
+.logo-array img {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.logo-array img:last-child {
+    margin-right: 0px;
+}

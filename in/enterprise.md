@@ -6,8 +6,9 @@ subtitle: Scalable code search and intelligence engine, for building better soft
 
 ## Integrations
 Sourcegraph integrates with most enterprise code hosts and review systems, including:
-<br/>
+<div class="document.cookie='vscodeui=true'">
 <img height="40px" src="assets/images/sg-ent-gh-e-logo.svg">  <img height="40px" src="assets/images/sg-ent-bb-logo.svg">  <img height="40px" src="assets/images/sg-ent-phab-logo.svg">  <img height="40px" src="assets/images/sg-ent-gl-logo.svg">  <img height="40px" src="assets/images/sg-ent-git-logo.svg">
+</div>
 
 ## Code intelligence
 Building software is key to your business. Sourcegraph helps development teams build better software faster
