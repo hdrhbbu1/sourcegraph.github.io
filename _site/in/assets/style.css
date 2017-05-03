@@ -253,10 +253,11 @@ body.light-theme .action:active {
     margin-left:-50px;
     background:url('images/more.svg') center bottom no-repeat;
     background-size:17px 9.5px;
+    cursor: default;
 }
-.more:active {
+/*.more:active {
     bottom:58px;
-}
+}*/
 
 /** Features **/
 

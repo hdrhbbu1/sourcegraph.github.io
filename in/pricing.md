@@ -12,7 +12,7 @@ Organization - $10 per user, per month
   * Team permissions and billing
   * Priority support
 
-<a href="pricing">Enterprise</a> - $50 per user, per month
+<a href="/pricing">Enterprise</a> - $50 per user, per month
 * Use Sourcegraph with code hosted on your own servers.
   * Integrate with GitHub Enterprise, Phabricator, and other tools
   * Global code search
