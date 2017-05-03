@@ -4,7 +4,7 @@ title: Sourcegraph Master Plan
 subtitle: What we're building and why it matters 
 ---
 
-Today, Sourcegraph gives you the power of an IDE (jump-to-def, search, and find-references) when reading code on the web, either on <a href="/index">Sourcegraph.com</a>, or on GitHub with the <a target="blank" href="https://text.sourcegraph.com/the-sourcegraph-test-v0-9-12-more-steps-to-better-code-e5c281850c">Sourcegraph for GitHub Chrome extension</a>.
+Today, Sourcegraph gives you the power of an IDE (jump-to-def, search, and find-references) when reading code on the web, either on <a href="index">Sourcegraph.com</a>, or on GitHub with the <a target="blank" href="https://text.sourcegraph.com/the-sourcegraph-test-v0-9-12-more-steps-to-better-code-e5c281850c">Sourcegraph for GitHub Chrome extension</a>.
 
 <div class="content-block">What most people don&#39;t know is that our long-term vision is to make it so everyone, in every community, in every country, and in every industry&#151;not just the ones working at the half-dozen dominant tech companies&#151;can create products using the best technology. We believe this is the only way the world will sustain broad economic growth and build the innovations we need over the next 100 years in transportation, health care, energy, AI, communication, space travel, etc.</div>
 
