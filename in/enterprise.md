@@ -22,7 +22,7 @@ Building software is key to your business. Sourcegraph helps development teams b
 Sourcegraph Enterprise uses the same scalable architecture as Sourcegraph.com, so it will scale to meet the needs of the largest enterprises.
 
 ## Security
-Security is core to everything we do. Learn more at <a href="/security">sourcegraph.com/security</a>
+Security is core to everything we do. Learn more at <a href="security">sourcegraph.com/security</a>
 
 ## Sourcegraph Enterprise
 Use Sourcegraph with code hosted on your own servers
