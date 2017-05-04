@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: markdown-2
 title: Toolbar Link
 ---
 
