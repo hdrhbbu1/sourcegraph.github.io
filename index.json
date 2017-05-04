@@ -43,5 +43,10 @@
 		"file": "link.html",
 		"type": "text/html",
 		"title": "Browser shortcut"
+	},
+	"/browser-link": {
+		"file": "browser-link.html",
+		"type": "text/html",
+		"title": "Browser shortcut"
 	}
 }
