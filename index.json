@@ -38,5 +38,10 @@
 		"file": "plan.html",
 		"type": "text/html",
 		"title": "Sourcegraph Master Plan"
+	},
+	"/link": {
+		"file": "link.html",
+		"type": "text/html",
+		"title": "Browser shortcut"
 	}
 }
