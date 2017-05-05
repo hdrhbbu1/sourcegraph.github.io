@@ -14,6 +14,7 @@ If you find yourself reading code on GitHub a lot, or cloning repos to open and 
 No. Sourcegraph is for reading code. You can keep it open alongside your favorite editor to help with all the times you need to read code. Sourcegraph does have [editor and browser extensions](#extensions) to jump from editing code to reading and searching code easily. 
 
 **What languages are supported for code intelligence?**
+
 <!--See full language support information in our documentation (link to language matrix in /docs).-->
 _All languages_: inline authorship/blame, instant real-time code search, across all repositories, branches, and commits
 
@@ -69,8 +70,7 @@ Supported editors are: Atom, Eclipse, IntelliJ, Sublime, and VS Code. (links)
 
 Sourcegraph also has web browser extensions for GitHub. Learn more about our Chrome extension, [Sourcegraph for GitHub](https://chrome.google.com/webstore/detail/sourcegraph-for-github/dgjhfomjieaadpoljlnidmbgkdffpack). Our Firefox extension, Sourcegraph for GitHub, is coming soon. 
 
-Also available is the [Jump to Sourcegraph bookmarklet]
-(https://gist.github.com/sqs/2a2680eff4dad159ae754756fe9326c2)
+Also available is the [Jump to Sourcegraph bookmarklet](https://gist.github.com/sqs/2a2680eff4dad159ae754756fe9326c2)
 
 **Is it possible to install or build extensions on sourcegraph.com?** 
 
