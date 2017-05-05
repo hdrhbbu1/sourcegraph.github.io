@@ -60,15 +60,15 @@ Here are some of the key (no pun intended) ones:
 
 **<a id="extensions"></a>How can I integrate Sourcegraph with my existing tools and workflow?**
 
-Sourcegraph editor extensions do the following:
+<!--Sourcegraph editor extensions do the following:
 
 * Instantly jump from your editor to your current position in any repo, file, and branch on sourcegraph.com to quickly share with teammates, or to get inline blame, cross-repo jump-to-definition, and cross-repo references
 * Open file at cursor in sourcegraph.com
 * Instantly search for text from your editor across all of your repositories on sourcegraph.com
 
-Supported editors are: Atom, Eclipse, IntelliJ, Sublime, and VS Code. (links)
+Supported editors are: Atom, Eclipse, IntelliJ, Sublime, and VS Code. (links)-->
 
-Sourcegraph also has web browser extensions for GitHub. Learn more about our Chrome extension, [Sourcegraph for GitHub](https://chrome.google.com/webstore/detail/sourcegraph-for-github/dgjhfomjieaadpoljlnidmbgkdffpack). Our Firefox extension, Sourcegraph for GitHub, is coming soon. 
+Sourcegraph has web browser extensions for GitHub. Learn more about our Chrome extension, [Sourcegraph for GitHub](https://chrome.google.com/webstore/detail/sourcegraph-for-github/dgjhfomjieaadpoljlnidmbgkdffpack). Our Firefox extension, Sourcegraph for GitHub, is coming soon. 
 
 Also available is the [Jump to Sourcegraph bookmarklet](https://gist.github.com/sqs/2a2680eff4dad159ae754756fe9326c2)
 
