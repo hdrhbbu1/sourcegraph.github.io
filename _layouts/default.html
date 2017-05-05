@@ -8,13 +8,14 @@
 
         {{ content }}
 
-        <div class="quote container centered padded">
-            <h1 class="quote-text">"Learning a new code base using <a href="#">@srcgraph</a> is extra dope! <a href="#">pic.twitter.com/6YWeYyyYZo</a>"</h1>
-            <div class="quote-meta">
-                <img src="assets/images/kelsey.png" />
-                <span>Kelsey Hightower</span>
-                <a href="#">@kelseyhightower</a>
-            </div>
+        <div class="padded-bottom">
+            {%  
+                include twitter.html 
+                tweet="Learning a new code base using <a href=\"https://twitter.com/srcgraph\">@srcgraph</a> is extra dope!" 
+                name="Kelsey Hightower" 
+                handle="kelseyhightower" 
+                avatar="kelsey.png" 
+            %} 
         </div>
         
         {%  include

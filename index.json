@@ -38,5 +38,15 @@
 		"file": "plan.html",
 		"type": "text/html",
 		"title": "Sourcegraph Master Plan"
+	},
+	"/welcome": {
+		"file": "welcome.html",
+		"type": "text/html",
+		"title": "Welcome to Sourcegraph"
+	},
+	"/docs": {
+		"file" : "docs.html",
+		"type": "text/html",
+		"title" : "Sourcegraph Documentation"
 	}
 }

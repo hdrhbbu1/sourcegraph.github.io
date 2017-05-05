@@ -37,12 +37,3 @@ If you have specific questions or concerns, contact us at <a href="mailto:securi
 If you think that you have found a security issue, please email us at <a href="mailto:security@sourcegraph.com">security@sourcegraph.com</a>. Please do not publicly disclose the issue until we’ve addressed it.
 
 We provide monetary rewards, up to $4,000, for open bounties. This is determined based on the percentage of users impacted, the likelihood of encountering the vulnerability under normal use of the site, and the severity of potential service disruption or data leakage.
-
-
-{%  
-    include twitter.html 
-    tweet="Learning a new code base using <a href=\"#\">@srcgraph</a> is extra dope! <a href=\"#\">pic.twitter.com/6YWeYyyYZo</a>" 
-    name="Kelsey Hightower" 
-    handle="@kelseyhightower" 
-    avatar="kelsey.png" 
-%} 

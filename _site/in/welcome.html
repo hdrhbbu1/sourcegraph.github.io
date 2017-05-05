@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="assets/reset.css" rel="stylesheet" />
+<link href="assets/clearfix.css" rel="stylesheet" />
+<link href="assets/style.css" rel="stylesheet" />
+        <title></title>        
+    </head>
+    <body class="dark-theme">
+
+        <div class="static-header">
+            <div class="marketing-navigation container welcome">
+                <div class="cf">
+                    <div class="primary">
+                        <a href="index" class="logo">Sourcegraph</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class="container modal-content">
+
+            <form action='http://localhost:3080/.api/submit-form' method='POST' enctype='application/json'>
+	<!--<p>&lt;Marketing text goes here&gt. But first, please tell us a bit about yourself!-->
+
+	<div class="form-title">Please enter your details:</div>
+	
+	<label for="firstname">Full name</label>
+	<input name="firstname" required=true value='' type="text" style="display:block;">
+
+	<label for="fullname">Email</label>
+	<input name="signup_email" required=true value='' type="email" style="display:block;">
+
+	<label for="fullname">Company</label>
+	<input name="company" required=true value='' type="text" style="display:block;">
+
+	<input name="hubSpotFormName" value="AfterSignupForm" type="hidden">
+
+	<div class="terms-block">
+		<div class="terms">
+			By signing up, you agree to our <a href='/terms'>terms</a>, <a href='/privacy'>privacy policy</a>, and <a href='/terms'>email policy</a>.
+		</div>
+	</div>
+	<input type="submit" value="Sign up" size="small">
+</form >
+
+        </div>
+        
+    </body>
+</html>
