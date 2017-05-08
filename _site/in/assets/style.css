@@ -593,11 +593,12 @@ body.light-theme .footer-logo {
     background: #329AF0;
     color: white;
     padding: 4px 12px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     border: none;
     font-weight: 400;
     border-radius: 3px;
+    cursor: pointer;
 }
 .modal-content .terms-block {
     margin-bottom:24px;
