@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: docs
 title: Frequently Asked Questions
 ---
 

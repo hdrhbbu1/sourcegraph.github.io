@@ -48,5 +48,10 @@
 		"file" : "docs.html",
 		"type": "text/html",
 		"title" : "Sourcegraph Documentation"
+	},
+	"/docs/faqs": {
+		"file" : "docs/faqs.html",
+		"type": "text/html",
+		"title" : "Sourcegraph Frequently Asked Questions"
 	}
 }
