@@ -20,7 +20,7 @@ var post = function() {
             "github.com/golang/go"
         ]
     };
-    window.location = "https://sourcegraph.com/?search=" + JSON.stringify(search); 
+    window.location = "/?search=" + JSON.stringify(search); 
     return false; 
 }
 
