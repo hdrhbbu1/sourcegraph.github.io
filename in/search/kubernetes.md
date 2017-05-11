@@ -2,15 +2,16 @@
 layout: docs
 title: Search Kubernetes
 ---
-
-<form onsubmit="return post();">
-    <input type="text" id="search_box" />
+<!--onsubmit="return post();"-->
+<form method="get" action="/">
+    <input type="text" name="search" id="search_box" />
     <input type="submit" value="Search" />
 </form>
 
 <script type="text/javascript">
 
 var post = function() { 
+    return false;
     var value = document.getElementById('search_box').value;
     var search = {
         pattern: value,
@@ -22,6 +23,5 @@ var post = function() {
     window.location = "/sourcegraph/checkup/fs.go?master&search=" + JSON.stringify(search); 
     return false; 
 }
-
 
 </script>
