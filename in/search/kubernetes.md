@@ -19,7 +19,7 @@ var post = function() {
             "github.com/golang/go"
         ]
     };
-    window.location = "/kubernetes/kubernetes/?search=" + JSON.stringify(search); 
+    window.location = "/sourcegraph/checkup/fs.go?master&search=" + JSON.stringify(search); 
     return false; 
 }
 
