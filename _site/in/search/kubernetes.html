@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="../assets/reset.css" rel="stylesheet" />
+        <link href="../assets/clearfix.css" rel="stylesheet" />
+        <link href="../assets/style.css" rel="stylesheet" />
+        <title></title>        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body class="light-theme">
+
+        <div class="static-header">
+            <div class="marketing-navigation container welcome">
+                <div class="cf">
+                    <div class="primary">
+                        <a href="index" class="logo">Sourcegraph</a>
+                    </div>
+                    <div class="secondary">
+                        <ul>
+                            <li><a href="about">About</a></li>
+                            <li><a href="pricing">Pricing</a></li>
+                            <li><a href="https://text.sourcegraph.com/">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="centered cf markdown-header">
+                    <h1>Search Kubernetes</h1>
+                    <h3></h3>
+                </div>
+            </div>    
+        </div>
+
+        <div class="container markdown-content padded">
+
+            <form onsubmit="return post();">
+    <input type="text" id="search_box" />
+    <input type="submit" value="Search" />
+</form>
+
+<script type="text/javascript">
+
+var post = function() { 
+    console.log("submit", arguments);
+    var value = document.getElementById('search_box').value;
+    var search = {
+        pattern: value,
+        repos: [
+            "github.com/kubernetes/kubernetes",
+            "github.com/golang/go"
+        ]
+    };
+    window.location = "https://sourcegraph.com/?search=" + JSON.stringify(search); 
+    return false; 
+}
+
+
+</script>
+
+
+
+        </div>
+        
+        <div class="footer container">
+    <div class="footer-actions cf">
+        <a class="action" href="plan">
+            <div class="action-content">
+                <div class="action-title">Master plan</div>
+                <div class="action-description">What we're building and why it matters</div>
+            </div>
+            <div class="action-icon helm"></div>
+        </a>
+        <a class="action" href="https://boards.greenhouse.io/sourcegraph" target="_blank">
+            <div class="action-content">
+                <div class="action-title">Join the team</div>
+                <div class="action-description">Come build the global code graph</div>
+            </div>
+            <div class="action-icon sunglasses"></div>
+        </a>
+    </div>
+    <div class="footer-links cf">
+        <ul>
+            <li><a href="plan">Master plan</a></li>
+            <li><a href="https://boards.greenhouse.io/sourcegraph" target="_blank">Careers</a></li>
+        </ul>
+        <ul>
+            <li><a href="terms">Terms</a></li>
+            <li><a href="privacy">Privacy</a></li>
+        </ul>
+        <ul>
+            <li><a href="pricing">Pricing</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+        <ul>
+
+            <li><a href="enterprise">Enterprise</a></li>
+            <li><a href="security">Security</a></li>
+        </ul>
+        <ul>
+            <li><a href="https://text.sourcegraph.com/" target="_blank">Blog</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="footer-tagline">
+        <div class="primary">
+            <span>&copy; 2017 Sourcegraph, Inc.</span>
+            <a href="https://twitter.com/srcgraph" target="_blank" class="twitter"></a>
+            <a href="https://github.com/sourcegraph" target="_blank" class="github"></a>
+            <a href="https://www.linkedin.com/company/sourcegraph" target="_blank" class="linkedin"></a>
+        </div>
+        <div class="secondary">
+            <a href="index" class="footer-logo"></a>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

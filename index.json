@@ -53,5 +53,10 @@
 		"file" : "docs/faqs.html",
 		"type": "text/html",
 		"title" : "Sourcegraph Frequently Asked Questions"
+	},
+	"/search/kubernetes": {
+		"file" : "search/kubernetes.html",
+		"type": "text/html",
+		"title" : "Search Kubernetes"
 	}
 }
