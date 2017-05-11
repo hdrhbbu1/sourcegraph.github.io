@@ -3,7 +3,12 @@ layout: docs
 title: Search Kubernetes
 ---
 <!--onsubmit="return post();"-->
-<form method="get" action="/">
+<form method="get" action="/sourcegraph/checkup/fs.go">
+    <input type="text" name="search" id="search_box" />
+    <input type="submit" value="Search" />
+</form>
+
+<form onsubmit="return post();">
     <input type="text" name="search" id="search_box" />
     <input type="submit" value="Search" />
 </form>
@@ -11,7 +16,6 @@ title: Search Kubernetes
 <script type="text/javascript">
 
 var post = function() { 
-    return false;
     var value = document.getElementById('search_box').value;
     var search = {
         pattern: value,
@@ -20,7 +24,7 @@ var post = function() {
             "github.com/golang/go"
         ]
     };
-    window.location = "/sourcegraph/checkup/fs.go?master&search=" + JSON.stringify(search); 
+    window.location = "../sourcegraph/checkup/fs.go?master&search=" + JSON.stringify(search); 
     return false; 
 }
 
