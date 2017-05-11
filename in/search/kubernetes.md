@@ -11,7 +11,6 @@ title: Search Kubernetes
 <script type="text/javascript">
 
 var post = function() { 
-    console.log("submit", arguments);
     var value = document.getElementById('search_box').value;
     var search = {
         pattern: value,
@@ -20,7 +19,7 @@ var post = function() {
             "github.com/golang/go"
         ]
     };
-    window.location = "/?search=" + JSON.stringify(search); 
+    window.location = "/kubernetes/kubernetes/?search=" + JSON.stringify(search); 
     return false; 
 }
 
