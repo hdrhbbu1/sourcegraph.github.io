@@ -19,7 +19,7 @@ callToActionLink: /signup
     <input type="submit" value="Search" id="search_submit" />
     <input type="hidden" id="navigation" name="submit" value="" />
 </form>
-<span class="search-help">Try searching &quot;this thing&quot; or &quot;that&quot;</span>
+<span class="search-help">Try searching &quot;func TestUpdateRelease_ReuseValues&quot; or &quot;cmd.Flags().StringVarP&quot;</span>
 
 <script type="text/javascript">
 
