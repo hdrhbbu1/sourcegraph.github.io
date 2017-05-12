@@ -33,13 +33,13 @@ var handleCheck = function(e, el) {
         set = false;
     }
     if(this.id === "whole-word") {
-        search.wholeWord = set;
+        search.isWordMatch = set;
     }
     if(this.id === "case-sensitive") {
-        search.caseSensitive = set;
+        search.isCaseSensitive = set;
     }
     if(this.id === "regex") {
-        search.regex = set;
+        search.isRegExp = set;
     }
 };
 
