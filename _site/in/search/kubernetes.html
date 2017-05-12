@@ -4,37 +4,43 @@
         <link href="../assets/reset.css" rel="stylesheet" />
         <link href="../assets/clearfix.css" rel="stylesheet" />
         <link href="../assets/style.css" rel="stylesheet" />
-        <title></title>        
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Marketing</title>        
     </head>
-    <body class="light-theme">
-
-        <div class="static-header">
-            <div class="marketing-navigation container welcome">
-                <div class="cf">
-                    <div class="primary">
-                        <a href="index" class="logo">Sourcegraph</a>
-                    </div>
-                    <div class="secondary">
-                        <ul>
-                            <li><a href="about">About</a></li>
-                            <li><a href="pricing">Pricing</a></li>
-                            <li><a href="https://text.sourcegraph.com/">Blog</a></li>
-                        </ul>
-                    </div>
+    <body class="dark-theme">
+        <div class="welcome light">
+            <div class="marketing-navigation container">
+                <div class="primary">
+                    <a href="index" class="logo">Sourcegraph</a>
                 </div>
-                <div class="centered cf markdown-header">
-                    <h1>Search Kubernetes</h1>
-                    <h3></h3>
+                <div class="secondary">
+                    <ul>
+                        <li><a href="about">About</a></li>
+                        <li><a href="pricing">Pricing</a></li>
+                        <li><a href="https://text.sourcegraph.com/">Blog</a></li>
+                    </ul>
                 </div>
-            </div>    
+            </div>
+            <div class="centered cf markdown-header" style="padding-bottom: 46px">
+                <h1>Search Kubernetes</h1>
+                <h3>Search code across webpack and 75 of the most popular webpack plugins</h3>
+                <p class="header-call-to-action">Try it on your private code <a href="/signup">Sign up</a></p>
+            </div>
+            <div class="header-tabs container">
+                <a class="tab" href="search/go">golang/go</a>
+                <a class="active tab" href="search/webpack">webpack</a>
+                <a class="tab" href="search/kubernetes">kubernetes</a>
+            </div>
         </div>
 
-        <div class="container markdown-content padded">
-
-            <form onsubmit="return post();">
-    <input type="text" name="search" id="search_box" />
-    <input type="submit" value="Search" />
+        <div class="container padded">
+            <form onsubmit="return post();" class="cf">
+    <div class="search-input">
+        <input type="text" name="search" id="search_box" />
+        <div class="word-match filter-icon"><div class="inner-icon"></div></div>
+        <div class="case-sensitive filter-icon"><div class="inner-icon"></div></div>
+        <div class="regex filter-icon"><div class="inner-icon"></div></div>
+    </div>
+    <input type="submit" value="Search" id="search_submit" />
 </form>
 
 <script type="text/javascript">
@@ -55,8 +61,18 @@ var post = function() {
 </script>
 
 
-
         </div>
+<!--
+        <div class="padded-bottom">
+            <div class="quote container centered padded-top">
+    <h1 class="quote-text">"Learning a new code base using <a href="https://twitter.com/srcgraph">@srcgraph</a> is extra dope!"</h1>
+    <div class="quote-meta">
+        <img src="assets/images/../kelsey.png" />
+        <span>Kelsey Hightower</span>
+        <a href="https://twitter.com/kelseyhightower">@kelseyhightower</a>
+    </div>
+</div> 
+        </div>-->
         
         <div class="footer container">
     <div class="footer-actions cf">
@@ -113,3 +129,8 @@ var post = function() {
 
     </body>
 </html>
+
+
+
+
+
