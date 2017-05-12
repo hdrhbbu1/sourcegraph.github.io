@@ -1,7 +1,7 @@
 ---
 layout: search
 title: Search Kubernetes
-subtitle: Search code across webpack and 75 of the most popular webpack plugins
+subtitle: Search code across Kubernetes and 34 of the most popular Kubernetes repos
 callToActionTitle: Try it on your private code
 callToActionText: Sign up
 callToActionLink: /signup
@@ -58,7 +58,7 @@ var post = function() {
             "github.com/deis/steward"
         ]
     };
-    window.location = "/?search=" + JSON.stringify(search); 
+    window.location = "index/?search=" + JSON.stringify(search); 
     return false; 
 }
 

@@ -1,0 +1,14 @@
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>search param</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5646 357)" figma:type="canvas">
+<g id="search param" figma:type="frame">
+<g id="Subtract" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(5646 -357)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 32 0L 0 0L 0 32L 32 32L 32 0ZM 25.4609 17.7891C 25.4609 20.4219 24.0625 22.1484 21.9297 22.1484C 20.7578 22.1484 19.7578 21.5938 19.2266 20.6562L 19.1016 20.6562L 19.1016 22L 17.8203 22L 17.8203 10.2344L 19.1641 10.2344L 19.1641 14.9062L 19.2891 14.9062C 19.75 14 20.7734 13.4297 21.9297 13.4297C 24.0703 13.4297 25.4609 15.1406 25.4609 17.7891ZM 24.0703 17.7891C 24.0703 15.8203 23.1562 14.6406 21.6172 14.6406C 20.0859 14.6406 19.1328 15.8438 19.1328 17.7891C 19.1328 19.7344 20.0859 20.9375 21.6172 20.9375C 23.1562 20.9375 24.0703 19.7578 24.0703 17.7891ZM 15.9375 22L 14.4609 22L 13.3281 18.7734L 8.84375 18.7734L 7.71094 22L 6.23438 22L 10.3906 10.7266L 11.7812 10.7266L 15.9375 22ZM 11.1484 12.5469L 11.0234 12.5469L 9.25781 17.5781L 12.9141 17.5781L 11.1484 12.5469ZM 4 6L 28 6L 28 7L 4 7L 4 6ZM 28 25L 4 25L 4 26L 28 26L 28 25Z"/>
+</defs>
+</svg>
