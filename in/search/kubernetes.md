@@ -41,6 +41,7 @@ var handleCheck = function(e, el) {
     if(this.id === "regex") {
         search.isRegExp = set;
     }
+    updateNav();
 };
 
 document.getElementById('whole-word').addEventListener('click', handleCheck);
@@ -87,6 +88,7 @@ var search = {
 
 document.getElementById('search_box').onkeyup = function() {
     search.pattern = this.value;
+    updateNav();
     return false; 
 }
 
