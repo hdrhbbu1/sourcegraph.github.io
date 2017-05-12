@@ -19,10 +19,12 @@ callToActionLink: /signup
     <input type="submit" value="Search" id="search_submit" />
     <input type="hidden" id="navigation" name="submit" value="" />
 </form>
-<span class="search-help">Try searching &quot;func TestUpdateRelease_ReuseValues&quot; or &quot;cmd.Flags().StringVarP&quot;</span>
+<span class="search-help">Try searching &quot;<a href="javascript:set('func TestUpdateRelease_ReuseValues');">func TestUpdateRelease_ReuseValues</a>&quot; or &quot;<a href="javascript:set('cmd.Flags().StringVarP');">cmd.Flags().StringVarP</a>&quot;</span>
 
 <script type="text/javascript">
-
+var set = function(str) {
+    document.getElementById("search_box").value = str;
+};
 var handleCheck = function(e, el) {
     var set = null;
     if(this.className.indexOf('checked') === -1) {

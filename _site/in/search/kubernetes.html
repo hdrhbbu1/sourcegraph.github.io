@@ -45,10 +45,12 @@
     <input type="submit" value="Search" id="search_submit" />
     <input type="hidden" id="navigation" name="submit" value="" />
 </form>
-<p><span class="search-help">Try searching "func TestUpdateRelease_ReuseValues" or "cmd.Flags().StringVarP"</span></p>
+<p><span class="search-help">Try searching "<a href="javascript:set('func TestUpdateRelease_ReuseValues');">func TestUpdateRelease_ReuseValues</a>" or "<a href="javascript:set('cmd.Flags().StringVarP');">cmd.Flags().StringVarP</a>"</span></p>
 
 <script type="text/javascript">
-
+var set = function(str) {
+    document.getElementById("search_box").value = str;
+};
 var handleCheck = function(e, el) {
     var set = null;
     if(this.className.indexOf('checked') === -1) {
