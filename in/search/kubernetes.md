@@ -19,7 +19,7 @@ callToActionLink: /signup
     <input type="submit" value="Search" id="search_submit" />
     <input type="hidden" id="navigation" name="submit" value="" />
 </form>
-<span class="search-help">Try searching &quot;<a href="javascript:set('func TestUpdateRelease_ReuseValues');">func TestUpdateRelease_ReuseValues</a>&quot; or &quot;<a href="javascript:set('cmd.Flags().StringVarP');">cmd.Flags().StringVarP</a>&quot;</span>
+<span class="search-help">Try searching &quot;<a onclick="javascript:set('func TestUpdateRelease_ReuseValues');">func TestUpdateRelease_ReuseValues</a>&quot; or &quot;<a onclick="javascript:set('cmd.Flags().StringVarP');">cmd.Flags().StringVarP</a>&quot;</span>
 
 <script type="text/javascript">
 var set = function(str) {
