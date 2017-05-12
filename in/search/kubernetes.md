@@ -24,6 +24,9 @@ callToActionLink: /signup
 <script type="text/javascript">
 var set = function(str) {
     document.getElementById("search_box").value = str;
+    search.pattern = str;
+    updateNav();
+    return false; 
 };
 var handleCheck = function(e, el) {
     var set = null;
