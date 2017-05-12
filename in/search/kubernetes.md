@@ -98,7 +98,7 @@ document.getElementById('search_box').onkeyup = function() {
 }
 
 var updateNav = function() {
-    document.getElementById('navigation').value = `github.com/kubernetes/kubernetes?search=${JSON.stringify(search)}`;
+    document.getElementById('navigation').value = `/github.com/kubernetes/kubernetes?search=${JSON.stringify(search)}`;
 }
 
 </script>
