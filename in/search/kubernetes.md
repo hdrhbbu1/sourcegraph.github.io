@@ -25,7 +25,37 @@ var post = function() {
         pattern: value,
         repositories: [
             "github.com/kubernetes/kubernetes",
-            "github.com/golang/go"
+            "github.com/kubernetes/helm",
+            "github.com/kubernetes/kops",
+            "github.com/kubernetes/kube-aggregator",
+            "github.com/kubernetes/apimachinery",
+            "github.com/kubernetes/autoscaler",
+            "github.com/kubernetes/heapster",
+            "github.com/kubernetes/kube-state-metrics",
+            "github.com/kubernetes/perf-tests",
+            "github.com/kubernetes/dns",
+            "github.com/kubernetes/gengo",
+            "github.com/kubernetes/frakti",
+            "github.com/kubernetes/git-sync",
+            "github.com/kubernetes/kubectl",
+            "github.com/kubernetes/metrics",
+            "github.com/coreos/etcd",
+            "github.com/kubernetes/client-go",
+            "github.com/coreos/tectonic-installer",
+            "github.com/coreos/prometheus-operator",
+            "github.com/coreos/matchbox",
+            "github.com/coreos/mantle",
+            "github.com/coreos/flannel",
+            "github.com/coreos/clair",
+            "github.com/coreos/dex",
+            "github.com/coreos/etcd-operator",
+            "github.com/Mirantis/k8s-externalipcontroller",
+            "github.com/sapcc/kube-parrot",
+            "github.com/apprenda/kismatic",
+            "github.com/coreos/tectonic-installer",
+            "github.com/ElasticBox/elastickube",
+            "github.com/rancher/rancher-cloud-controller-manager",
+            "github.com/deis/steward"
         ]
     };
     window.location = "/?search=" + JSON.stringify(search); 
