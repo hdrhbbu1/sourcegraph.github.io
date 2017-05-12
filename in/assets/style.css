@@ -578,7 +578,7 @@ body.light-theme .footer-logo {
     box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
 }
 .search-input #search_box {
-    width: calc(100% - 100px);
+    width: calc(100% - 120px);
     height: 50px;
     line-height: 50px;
     font-size: 16px;
@@ -587,7 +587,21 @@ body.light-theme .footer-logo {
     outline: none;
     background: none;
     color: white;
+    vertical-align: top;
 }
+#search_box::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #5D7EAC;
+}
+#search_box::-moz-placeholder { /* Firefox 19+ */
+	color: #5D7EAC;
+}
+#search_box:-ms-input-placeholder { /* IE 10+ */
+	color: #5D7EAC;
+}
+#search_box:-moz-placeholder { /* Firefox 18- */
+	color: #5D7EAC;
+}
+
 #search_submit {
     vertical-align: top;
     display: block;
@@ -610,6 +624,15 @@ body.light-theme .footer-logo {
 .header-call-to-action {
     display: block;
     margin-top: 24px;
+}
+.header-call-to-action a {
+    padding: 4px 12px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    background: #329AF0;
+    display:inline-block;
+    margin-left: 24px;
 }
 
 /* Welcome modal */
@@ -671,4 +694,70 @@ body.light-theme .footer-logo {
     color: #587FAE;
     font-size: 16px;
     line-height: 24px;
+}
+
+
+
+/* Search Checkboxes */
+.filters {
+    margin-top: 9px;
+    display: inline-block;
+}
+.filter-icon {
+    cursor: pointer;
+	width: 32px;
+	height: 32px;
+    display:inline-block;
+	padding: 0px;
+	border: none;
+	margin: 0px;
+	opacity: 1;
+	margin-left: 1px;
+    background: #5D7EAC !important;
+}
+.filter-icon.checked,
+.filter-icon:hover {
+	background: #C9D4E3 !important;
+}
+.filter-icon .inner-icon,
+.filter-icon:hover .inner-icon,
+.filter-icon .inner-icon {
+	background-color: #233043;
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+.filter-icon.checked .inner-icon,
+.filter-icon.checked:hover .inner-icon,
+.filter-icon.checked .inner-icon,
+.filter-icon.checked:hover .inner-icon {
+	background: #31445E !important;
+}
+.filter-icon.whole-word .inner-icon,
+.filter-icon.whole-word:hover .inner-icon,
+.filter-icon.whole-word .inner-icon {
+	mask: url(images/word-match.svg) no-repeat center;
+	-webkit-mask: url(images/word-match.svg) no-repeat center;
+}
+.filter-icon.regex .inner-icon,
+.filter-icon.regex:hover .inner-icon,
+.filter-icon.regex .inner-icon {
+	mask: url(images/regex.svg) no-repeat center;
+	-webkit-mask: url(images/regex.svg) no-repeat center;
+}
+.filter-icon.case-sensitive .inner-icon,
+.filter-icon.case-sensitive:hover .inner-icon,
+.filter-icon.case-sensitive .inner-icon {
+	mask: url(images/case-sensitive.svg) no-repeat center;
+	-webkit-mask: url(images/case-sensitive.svg) no-repeat center;
+}
+.search-help {
+    color: #768193;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+.search-form {
+    margin-bottom: 20px;
 }

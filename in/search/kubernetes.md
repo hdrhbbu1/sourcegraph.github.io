@@ -7,15 +7,18 @@ callToActionText: Sign up
 callToActionLink: /signup
 ---
 
-<form onsubmit="return post();" class="cf">
+<form onsubmit="return post();" class="cf search-form">
     <div class="search-input">
-        <input type="text" name="search" id="search_box" />
-        <div class="word-match filter-icon"><div class="inner-icon"></div></div>
-        <div class="case-sensitive filter-icon"><div class="inner-icon"></div></div>
-        <div class="regex filter-icon"><div class="inner-icon"></div></div>
+        <input type="text" name="search" id="search_box" placeholder="Search..." />
+        <div class="filters">
+            <div class="whole-word filter-icon"><div class="inner-icon"></div></div>
+            <div class="case-sensitive filter-icon"><div class="inner-icon"></div></div>
+            <div class="regex filter-icon"><div class="inner-icon"></div></div>
+        </div>
     </div>
     <input type="submit" value="Search" id="search_submit" />
 </form>
+<span class="search-help">Try searching &quot;this thing&quot; or &quot;that&quot;</span>
 
 <script type="text/javascript">
 

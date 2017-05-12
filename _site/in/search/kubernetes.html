@@ -20,9 +20,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="centered cf markdown-header" style="padding-bottom: 46px">
+            <div class="centered cf markdown-header" style="padding-bottom: 26px">
                 <h1>Search Kubernetes</h1>
-                <h3>Search code across Kubernetes and 34 of the most popular Kubernetes repos</h3>
+                <span>Search code across Kubernetes and 34 of the most popular Kubernetes repos</span>
                 <p class="header-call-to-action">Try it on your private code <a href="/signup">Sign up</a></p>
             </div>
             <div class="header-tabs container">
@@ -33,15 +33,18 @@
         </div>
 
         <div class="container padded">
-            <form onsubmit="return post();" class="cf">
+            <form onsubmit="return post();" class="cf search-form">
     <div class="search-input">
-        <input type="text" name="search" id="search_box" />
-        <div class="word-match filter-icon"><div class="inner-icon"></div></div>
-        <div class="case-sensitive filter-icon"><div class="inner-icon"></div></div>
-        <div class="regex filter-icon"><div class="inner-icon"></div></div>
+        <input type="text" name="search" id="search_box" placeholder="Search..." />
+        <div class="filters">
+            <div class="whole-word filter-icon"><div class="inner-icon"></div></div>
+            <div class="case-sensitive filter-icon"><div class="inner-icon"></div></div>
+            <div class="regex filter-icon"><div class="inner-icon"></div></div>
+        </div>
     </div>
     <input type="submit" value="Search" id="search_submit" />
 </form>
+<p><span class="search-help">Try searching "this thing" or "that"</span></p>
 
 <script type="text/javascript">
 
