@@ -758,6 +758,10 @@ body.light-theme .footer-logo {
     line-height: 20px;
     margin-bottom: 24px;
 }
+.search-help a {
+    color: #768193;
+    text-decoration: underline;
+}
 .search-form {
     margin-bottom: 20px;
 }
