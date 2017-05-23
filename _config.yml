@@ -34,4 +34,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - index.json

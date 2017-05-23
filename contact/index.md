@@ -9,7 +9,7 @@ Sourcegraph is how developers search code. Need to reach a real human being on o
 Send an email to <a href="mailto:support@sourcegraph.com">support@sourcegraph.com</a> with as much information as possible.
 * List the steps you took, what you expected, and what you saw.
 * Include links and screenshots, if relevant.
-Reporting a security vulnerability? See our <a href="https://sourcegraph.com/security">responsible disclosure policy</a>.
+Reporting a security vulnerability? See our <a href="https://about.sourcegraph.com/security">responsible disclosure policy</a>.
 
 ## Around the web
 

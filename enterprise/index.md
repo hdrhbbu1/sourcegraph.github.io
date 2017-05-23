@@ -7,7 +7,7 @@ subtitle: Scalable code search and intelligence engine, for building better soft
 ## Integrations
 Sourcegraph integrates with most enterprise code hosts and review systems, including:
 <div class="logo-array">
-<img height="40px" src="assets/images/sg-ent-gh-e-logo.svg">  <img height="40px" src="assets/images/sg-ent-bb-logo.svg">  <img height="40px" src="assets/images/sg-ent-phab-logo.svg">  <img height="40px" src="assets/images/sg-ent-gl-logo.svg">  <img height="40px" src="assets/images/sg-ent-git-logo.svg">
+<img height="40px" src="/assets/images/sg-ent-gh-e-logo.svg">  <img height="40px" src="/assets/images/sg-ent-bb-logo.svg">  <img height="40px" src="/assets/images/sg-ent-phab-logo.svg">  <img height="40px" src="/assets/images/sg-ent-gl-logo.svg">  <img height="40px" src="/assets/images/sg-ent-git-logo.svg">
 </div>
 
 ## Code intelligence
@@ -23,7 +23,7 @@ Building software is key to your business. Sourcegraph helps development teams b
 Sourcegraph Enterprise uses the same scalable architecture as Sourcegraph.com, so it will scale to meet the needs of the largest enterprises.
 
 ## Security
-Security is core to everything we do. Learn more at <a href="security">sourcegraph.com/security</a>
+Security is core to everything we do. Learn more at <a href="/security">sourcegraph.com/security</a>
 
 ## Sourcegraph Enterprise
 Use Sourcegraph with code hosted on your own servers

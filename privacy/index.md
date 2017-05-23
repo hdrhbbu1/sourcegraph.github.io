@@ -3,9 +3,9 @@ layout: markdown
 title: Sourcegraph Privacy Policy
 ---
 
-Sourcegraph, Inc. (**&quot;Sourcegraph,&quot; &quot;we,&quot; &quot;our,&quot;** or **&quot;us&quot;**) understands that privacy is important to our online visitors to our website and users of our online services (collectively, for the purposes of this Privacy Policy, our **&quot;Service&quot;**). This Privacy Policy explains how we collect, use, share and protect your personal information that we collect through our Service. By using our Service, you agree to the terms of this Privacy Policy and our <a href="terms">Terms of Service</a>.
+Sourcegraph, Inc. (**&quot;Sourcegraph,&quot; &quot;we,&quot; &quot;our,&quot;** or **&quot;us&quot;**) understands that privacy is important to our online visitors to our website and users of our online services (collectively, for the purposes of this Privacy Policy, our **&quot;Service&quot;**). This Privacy Policy explains how we collect, use, share and protect your personal information that we collect through our Service. By using our Service, you agree to the terms of this Privacy Policy and our <a href="/terms">Terms of Service</a>.
 
-Capitalized terms that are not defined in this Privacy Policy have the meaning given them in our <a href="terms">Terms of Service</a>.
+Capitalized terms that are not defined in this Privacy Policy have the meaning given them in our <a href="/terms">Terms of Service</a>.
 
 **WHAT INFORMATION DO WE COLLECT AND FOR WHAT PURPOSE**
 
@@ -37,7 +37,7 @@ We may share your personal information with:
 * Our business partners who offer a service to you jointly with us, or who partner with us to provide services to you;
 * Other companies whose products or services may be of interest to you (to see how you may opt-out of this sharing, see Your Choices, below);
 * Other parties in connection with a company transaction, such as a merger, sale of company assets or shares, reorganization, financing, change of control or acquisition of all or a portion of our business by another company or third party or in the event of a bankruptcy or related or similar proceedings; and
-* Third parties as required by law or subpoena or to if we reasonably believe that such action is necessary to (a) comply with the law and the reasonable requests of law enforcement; (b) to enforce our <a href="terms">Terms of Service</a> or to protect the security or integrity of our Service; and/or (c) to exercise or protect the rights, property, or personal safety of Sourcegraph, our Users, or others.
+* Third parties as required by law or subpoena or to if we reasonably believe that such action is necessary to (a) comply with the law and the reasonable requests of law enforcement; (b) to enforce our <a href="/terms">Terms of Service</a> or to protect the security or integrity of our Service; and/or (c) to exercise or protect the rights, property, or personal safety of Sourcegraph, our Users, or others.
 
 We may also aggregate or otherwise strip data of all personally identifying characteristics and may share that aggregated or anonymized data with third parties.
 
@@ -57,7 +57,7 @@ Any information or content that you voluntarily disclose for posting to the Serv
 
 **USER DATA**
 
-Sourcegraph&#39;s collection, storage, and use of User Data, and our responsibilities with respect to such User Data, are set forth in our <a href="terms">Terms of Service</a> and are not covered by this Privacy Policy.
+Sourcegraph&#39;s collection, storage, and use of User Data, and our responsibilities with respect to such User Data, are set forth in our <a href="/terms">Terms of Service</a> and are not covered by this Privacy Policy.
 
 **CHILDREN&#39;S PRIVACY**
 

@@ -23,7 +23,7 @@ subtitle: Sourcegraph is always free for public and open-source code. Start usin
 
 
   <div class="pricing-block">
-    <div class="title"><a href="pricing">Enterprise</a> - $50 per user, per month</div>
+    <div class="title"><a href="/pricing">Enterprise</a> - $50 per user, per month</div>
     <ul>
       <li>Use Sourcegraph with code hosted on your own servers.</li>
       <li>Integrate with GitHub Enterprise, Phabricator, and other tools</li>
