@@ -8,15 +8,15 @@ path: /docs/search
 
 To perform a search:
 
-1. <span class="">Click <span class="octicon octicon-search" style="transform:scaleX(-1)"></span> on the left sidebar or press kb(workbench.action.findInFiles) to open search
+1. Click the Search icon on the left sidebar to open search
 2. Type a query (punctuation and symbols are OK)
-3. Press <span class="shortcut mac-only">`Return`</span><span class="shortcut windows-only linux-only">`Enter`</span>
+3. Press Enter
 
 Press the `⋯` icon or continue reading for more search options.
 
 ## Regular expression search
 
-The `.*` icon in the query field toggles regular expressions. See [regexp syntax documentation](repo://github.com/golang/go/src/regexp/syntax/doc.go?go1.8).
+The `.*` icon in the query field toggles regular expressions. See [regexp syntax documentation](https://sourcegraph.com/github.com/golang/go/src/regexp/syntax/doc.go?go1.8).
 
 ## Select multiple repositories to search
 
@@ -28,7 +28,7 @@ Free users of Sourcegraph.com can search up to 25 repositories at once. There is
 
 ## Specify which Git revision to search
 
-Click on the <span class="octicon octicon-git-branch"></span> Git revision in the status bar or press kb(remoteGit.action.switchRevision) to switch revisions. Results from other repositories are currently drawn from their default branches only.
+Click on the <span class="octicon octicon-git-branch"></span> Git revision in the status bar to switch revisions. Results from other repositories are currently drawn from their default branches only.
 
 > All Git revisions are always searchable. No need to wait for indexing!
 
@@ -36,8 +36,8 @@ Click on the <span class="octicon octicon-git-branch"></span> Git revision in th
 
 The `files to include` and `files to exclude` fields accept a comma-separated list of paths (or globs, if enabled). These paths apply to all repositories in a multi-repository search.
 
-> Common vendor directories are excluded by default. You can change this in the `search.exclude` [user setting](command:workbench.action.openGlobalSettings).
+> Common vendor directories are excluded by default. You can change this in the `search.exclude` user setting.
 
 ## Show code authors and commit information from `git blame`
 
-If you're logged in, you can see inline authorship and commit information in the results. To enable blame, press the <span class="octicon octicon-eye"></span> icon in the status bar when viewing a result file.
+If you're logged in, you can see inline authorship and commit information in the results. To enable blame, press the eye icon in the status bar when viewing a result file.
