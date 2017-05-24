@@ -374,6 +374,12 @@ body.light-theme .action:active {
 }
 
 /** Quote **/
+.quote {
+    display:none;
+}
+.quote.active {
+    display: block;
+}
 .quote-meta * {
     line-height:48px;
     height:48px;

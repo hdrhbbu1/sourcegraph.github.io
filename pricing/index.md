@@ -39,11 +39,4 @@ subtitle: Sourcegraph is always free for public and open-source code. Start usin
 Plans are billed annually. Questions? <a href="mailto:sales@sourcegraph.com">Contact us</a>.
 </div>
 
-
-{%  
-    include twitter.html 
-    tweet="Learning a new code base using <a href=\"https://twitter.com/srcgraph\">@srcgraph</a> is extra dope!" 
-    name="Kelsey Hightower" 
-    handle="kelseyhightower" 
-    avatar="kelsey.png" 
-%}
+{% include quotes.html %} 
