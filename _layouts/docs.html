@@ -16,13 +16,13 @@
 
             <div class="docs-menu">
                 <ul>
-                    <li><a href="/docs">Overview</a></li>
-                    <li><a href="/docs/search">Code Search</a></li>
+                    <li {% if page.path == "/docs" %}class="active"{% endif %}><a href="/docs">Overview</a></li>
+                    <li {% if page.path == "/docs/search" %}class="active"{% endif %}><a href="/docs/search">Code Search</a></li>
                 </ul>
             </div>
             <div class="docs-content">
                 <div class="breadcrumb">
-                    <a href="{{page.id}}">{{page.title}}</a> 
+                    <a href="{{page.path}}">{{page.title}}</a> 
                 </div>
                 {{ content }}
             </div>

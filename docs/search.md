@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Code Search
+path: /docs/search
 ---
 
 # Code Search

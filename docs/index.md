@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Overview
+path: /docs
 ---
 
 # Overview
