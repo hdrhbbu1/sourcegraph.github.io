@@ -1,0 +1,64 @@
+.docs-menu {
+    width: 200px;
+    float:left;
+    border-radius: 3px;
+    font-size: 14px;
+    color: RGBA(118, 129, 147, 1.00);
+}
+.docs-menu a {
+    color: RGBA(118, 129, 147, 1.00);
+}
+.docs-menu ul, .docs-menu li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.docs-menu li {
+    padding: 4px 8px;
+}
+.docs-menu li.active {
+    font-weight: bold;
+}
+.docs-menu li:last-child {
+    border-bottom: none;
+}
+.docs-menu ul li ul {
+    border-left: 4px solid rgba(204, 204, 204, 0.5);
+    margin-top: 5px;
+}
+.docs-menu ul li.active ul {
+    font-weight: normal;
+}
+.docs-menu ul li.active ul li {
+    margin-left: 5px;
+}
+.docs-content {
+    width: calc(100% - 224px);
+    float:right;
+}
+.docs-content .breadcrumb {
+    margin-bottom: 40px;
+    margin-top: 4px;
+}
+.docs-content .breadcrumb a {
+    font-size: 13px;
+        color: RGBA(118, 129, 147, 1.00);
+}
+.docs-content .breadcrumb a::before {
+    display:inline-block;
+    content: "› ";
+    color: rgb(204, 204, 204);
+    padding: 0px 5px;
+}
+.docs-content .breadcrumb a:first-child::before {
+    display: none;
+    content: "";
+}
+.docs-content .breadcrumb .github-link {
+    float: right;
+}
+.docs-content .breadcrumb .github-link a {
+    font-weight: bold;
+    color: RGBA(18, 105, 211, 1.00);
+    text-decoration: none;
+}

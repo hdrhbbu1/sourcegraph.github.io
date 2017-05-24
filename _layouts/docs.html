@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+        <title>{{title}}</title>        
+        <link href="/assets/docs.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body class="light-theme">
+
+        <div class="static-header">
+            <div class="marketing-navigation container welcome" style="padding-bottom: 40px;">
+                {% include navigation.html %}
+            </div>    
+        </div>
+
+        <div class="container markdown-content padded cf" style="padding-top: 48px;">
+
+            <div class="docs-menu">
+                <ul>
+                    <li class="active"><a href="#">Sourcegraph Docs</a>
+                        <!--<ul>
+                            <li><a href="#">Docs Item 1</a></li>
+                            <li><a href="#">Docs Item 1</a></li>
+                            <li><a href="#">Docs Item 1</a></li>
+                            <li><a href="#">Docs Item 1</a></li>
+                        </ul>-->
+                    </li>
+                    <!--<li><a href="#">Code Search</a></li>
+                    <li><a href="#">Code Intelligence</a></li>
+                    <li><a href="#">Feedback</a></li>-->
+                </ul>
+            </div>
+            <div class="docs-content">
+                <div class="breadcrumb">
+                    <a href="/docs">Documentation</a> 
+                </div>
+                {{ content }}
+            </div>
+
+        </div>
+        
+        {%  include
+            footer.html
+            action1="master-plan"
+            action2="jointheteam" %}
+
+        {% include scripts.html %}
+
+    </body>
+</html>

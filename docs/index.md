@@ -1,8 +1,10 @@
 ---
-layout: markdown
+layout: docs
 title: Sourcegraph Documentation
 subtitle: Your how to guide for the best way to search and navigate code
 ---
+
+# Overview
 
 Sourcegraph is a tool that helps developers explore and understand code. These docs describe how to use Sourcegraph in your development workflow. If you have any problems or requests, please contact <a href="#contact_us">support</a>.
 
