@@ -4,21 +4,11 @@ layout: default
 
 <div class="viewport welcome">
     <div class="marketing-navigation container">
-        <div class="primary">
-            <a href="/" class="logo">Sourcegraph</a>
-        </div>
-        <div class="secondary">
-            <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/pricing">Pricing</a></li>
-                <li><a href="https://text.sourcegraph.com/">Blog</a></li>
-            </ul>
-        </div>
+        {% include navigation.html %}
     </div>
     <div class="welcome-copy">
         <h1>Code search + intelligence</h1>
         <p>Sourcegraph is a fast, solid, full-featured code navigation engine. Get cross-repository code intelligence (tooltips, jump to definition, symbol search) on all public code and on your private code. Either on Sourcegraph.com or code hosted on your own servers.</p>
-
     </div>
     <div class="actions">
         <!--<a class="action" href="search">
