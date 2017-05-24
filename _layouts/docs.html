@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include head.html %}
-        <title>{{title}}</title>        
+        {% include head.html %}    
         <link href="/assets/docs.css" rel="stylesheet" type="text/css" />
     </head>
     <body class="light-theme">
@@ -17,22 +16,13 @@
 
             <div class="docs-menu">
                 <ul>
-                    <li class="active"><a href="#">Sourcegraph Docs</a>
-                        <!--<ul>
-                            <li><a href="#">Docs Item 1</a></li>
-                            <li><a href="#">Docs Item 1</a></li>
-                            <li><a href="#">Docs Item 1</a></li>
-                            <li><a href="#">Docs Item 1</a></li>
-                        </ul>-->
-                    </li>
-                    <!--<li><a href="#">Code Search</a></li>
-                    <li><a href="#">Code Intelligence</a></li>
-                    <li><a href="#">Feedback</a></li>-->
+                    <li><a href="/docs">Overview</a></li>
+                    <li><a href="/docs/search">Code Search</a></li>
                 </ul>
             </div>
             <div class="docs-content">
                 <div class="breadcrumb">
-                    <a href="/docs">Documentation</a> 
+                    <a href="{{page.id}}">{{page.title}}</a> 
                 </div>
                 {{ content }}
             </div>
