@@ -9,13 +9,15 @@ subtitle: Sourcegraph is always free for public and open-source code. Start usin
     <div class="title">Personal - Free</div>
     <ul>
       <li>Use Sourcegraph with your own private repositories.</li>
+      <li>Multi-repository code search</li>
     </ul>
   </div>
 
   <div class="pricing-block">
-    <div class="title">Organization - $10 per user, per month</div>
+    <div class="title">Organization - $25 per user, per month</div>
       <ul>
-        <li>Use Sourcegraph with your organization's private repositories.</li>
+        <li>Use Sourcegraph with your organization's private cloud repositories.</li>
+        <li>Multi-repository code search</li>
         <li>Team permissions and billing</li>
         <li>Priority support</li>
       </ul>
@@ -27,7 +29,7 @@ subtitle: Sourcegraph is always free for public and open-source code. Start usin
     <ul>
       <li>Use Sourcegraph with code hosted on your own servers.</li>
       <li>Integrate with GitHub Enterprise, Phabricator, and other tools</li>
-      <li>Global code search</li>
+      <li>Multi-repository code search</li>
       <li>Dedicated Customer Success Manager</li>
     </ul>
   </div>
