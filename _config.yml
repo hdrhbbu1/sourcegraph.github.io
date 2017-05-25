@@ -1,9 +1,9 @@
 title: Sourcegraph
-email: your-email@domain.com
+email: hi@sourcegraph.com
 description: >
   How developers discover and understand code. Sourcegraph is a fast, global, semantic code search and cross-reference engine.
 baseurl: ""
-url: "https://sourcegraph.com"
+url: "https://about.sourcegraph.com"
 twitter_username: srcgraph
 twitter_image: /assets/images/sourcegraph-mark.png
 github_username:  sourcegraph
