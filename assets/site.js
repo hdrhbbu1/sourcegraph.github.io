@@ -22,3 +22,24 @@ var switchQuote = function(quotes) {
     $(quotes[next]).addClass('active');
     setTimeout(switchQuote, quoteSpeed, quotes);
 };
+
+/* For handling Development mode */
+$(function() {
+    var host = getParameterByName('host');
+    if(host) {
+        console.log(host, 'found');
+        document.querySelectorAll('a[data-type="app-link"]').forEach(function(el) {
+            console.log("app link", el);
+            el.setAttribute("href", el.getAttribute("href").replace("https://sourcegraph.com", "http://" + host));
+        });
+    }
+});
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}

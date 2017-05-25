@@ -169,11 +169,7 @@ body.dark-theme .welcome.light {
 .marketing-navigation .secondary a {
     padding:14px 0px;
 }
-.marketing-navigation .secondary input {
-    background: none;
-    border: none;
-}
-.marketing-navigation .secondary input.action-link {
+.marketing-navigation .secondary a.action-link {
     padding: 0px;
     font-size: 16px;
     margin-left: 12px;
@@ -181,7 +177,7 @@ body.dark-theme .welcome.light {
     color: white;
     
 }
-.marketing-navigation .secondary input.action-button {
+.marketing-navigation .secondary a.action-button {
     display: inline-block;
     background: #329af0;
     border-radius: 4px;
