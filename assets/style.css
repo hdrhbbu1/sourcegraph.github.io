@@ -73,7 +73,8 @@ body.light-theme .static-header li a {
 .padded-bottom {
     padding-bottom: 96px;
 }
-a {
+a,
+body.light-theme .markdown-content li a {
     color:#329AF0;
 }
 li a {
