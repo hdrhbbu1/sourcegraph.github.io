@@ -44,6 +44,7 @@ function initializeTelligent(appId, env) {
 		env: env,
 		configUseCookies: true,
 		useCookies: true,
+		cookieDomain: 'sourcegraph.com',
 		metadata: {
 			gaCookies: true,
 			performanceTiming: true,
