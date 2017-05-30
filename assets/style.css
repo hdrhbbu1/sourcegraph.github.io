@@ -73,7 +73,8 @@ body.light-theme .static-header li a {
 .padded-bottom {
     padding-bottom: 96px;
 }
-a {
+a,
+body.light-theme .markdown-content li a {
     color:#329AF0;
 }
 li a {
@@ -155,6 +156,9 @@ body.dark-theme .welcome.light {
     background:url('images/logo.svg');
     background-size: 170px 24px;
 }
+.marketing-navigation form {
+    display:inline-block;
+}
 .marketing-navigation .secondary ul {
     margin:0px;
 }
@@ -165,6 +169,26 @@ body.dark-theme .welcome.light {
 }
 .marketing-navigation .secondary a {
     padding:14px 0px;
+}
+.marketing-navigation .secondary a.action-link {
+    padding: 0px;
+    font-size: 16px;
+    margin-left: 12px;
+    padding-left: 32px;
+    color: white;
+    
+}
+.marketing-navigation .secondary a.action-button {
+    display: inline-block;
+    background: #329af0;
+    border-radius: 4px;
+    color: #ebf7ff;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 4px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
 }
 .sprinkles {
     background-image:url('images/sprinkles@2x.png');
@@ -359,6 +383,12 @@ body.light-theme .action:active {
 }
 
 /** Quote **/
+.quote {
+    display:none;
+}
+.quote.active {
+    display: block;
+}
 .quote-meta * {
     line-height:48px;
     height:48px;
