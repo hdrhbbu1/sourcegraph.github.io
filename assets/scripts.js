@@ -8,6 +8,13 @@ setTimeout(function() {
 	initializeTelligent(appId, env);
 	initializeIntercom(appId);
 	initializeGA();
+	
+	// Initialize Intercom links
+	$('.intercom-toggle').on('click', event => {
+		event.preventDefault();
+		trackIntercomClicked();
+		window.Intercom("show");
+	});
 }, 0);
 
 /**
@@ -28,6 +35,9 @@ function trackBlogClicked(loc) {
 function socialMediaClicked(site) {
 	trackEvent("Pages", "Click", null, "SocialMediaLinkClicked", { site: site });
 }
+function trackIntercomClicked() {
+	trackEvent("Pages", "Click", null, "IntercomClicked", { });
+};
 
 /**
  * Core event logging

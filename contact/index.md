@@ -6,7 +6,7 @@ title: Contact Sourcegraph
 Sourcegraph is how developers search code. Need to reach a real human being on our team?
 
 ## Help using Sourcegraph 
-Send an email to <a href="mailto:support@sourcegraph.com">support@sourcegraph.com</a> with as much information as possible.
+<a class="intercom-toggle" href="#">Start chatting with us now</a>, or send an email to <a href="mailto:support@sourcegraph.com">support@sourcegraph.com</a> with as much information as possible.
 * List the steps you took, what you expected, and what you saw.
 * Include links and screenshots, if relevant.
 Reporting a security vulnerability? See our <a href="https://about.sourcegraph.com/security">responsible disclosure policy</a>.

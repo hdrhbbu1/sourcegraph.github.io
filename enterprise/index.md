@@ -33,6 +33,4 @@ Use Sourcegraph with code hosted on your own servers
 * $50 per user, per month
 
 ## Get started
-Contact us to get code search and intelligence on your code
-
-<a href="mailto:sales@sourcegraph.com">Contact us</a>
+Contact us to get code search and intelligence on your organization's code. <a class="intercom-toggle" href="#">Chat with a representative</a> or <a href="mailto:sales@sourcegraph.com">email us</a>.
