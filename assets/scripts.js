@@ -83,8 +83,12 @@ function trackPageView() {
 	}
 	// Remove leading and trailing slashes
 	let name = window.location.pathname.replace(/^\/|\/$/g, '');
-	// Remove "/index.html", etc. file names
-	name = name.split('/')[0];
+	// Remove "/index.html" file names
+	name = name.replace(/\/index.html$/, '');
+	// Remove all ".html" extensions on other file names
+	name = name.replace(/(\/[^\/]+).html$/, (_, c) => { return c; });
+	// Replace "/"s with capitalized characters
+	name = name.replace(/\/(.)/g, (_, c) => { return c.toUpperCase(); });
 	if (name === '') {
 		name = 'ViewHome';
 	} else {
