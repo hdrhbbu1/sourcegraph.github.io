@@ -4,13 +4,13 @@ title: Enterprise deployment
 subtitle: Self-contained, easy to update, and simple to manage
 ---
 
-# Sourcegraph Enterprise
+# Sourcegraph Enterprise technical specifications
 
 Sourcegraph is a fast, intelligent code search and navigation platform. Sourcegraph Enterprise provides the same features as [Sourcegraph.com](https://sourcegraph.com) on your team's private code hosted on-premises or in a private cloud.
 
 Sourcegraph Enterprise is designed to be self-contained, easy to update, and simple to manage. Using Kubernetes Helm, it can be deployed and updated with a single command.
 
-Visit [about.sourcegraph.com/enterprise](https://about.sourcegraph.com/enterprise) or [contact us now](mailto:sales@sourcegraph.com) to learn more about Sourcegraph Enterprise, scalability, and security.
+Visit our [enterprise](/enterprise) page or [contact us now](mailto:sales@sourcegraph.com) to learn more about Sourcegraph Enterprise, scalability, and security.
 
 ## Services
 
@@ -101,6 +101,5 @@ Sourcegraph also offers extensions for popular editors such as Atom, VS Code, Su
 
 ## Get started
 
-Contact us to get code search and intelligence on your code
+[Contact us](mailto:sales@sourcegraph.com) today to get code search and intelligence on your organization's on-premises code.
 
-[Contact us](mailto:sales@sourcegraph.com)
