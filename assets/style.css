@@ -48,7 +48,7 @@ body.light-theme .static-header li a {
 
 
 .markdown-header {
-    padding: 56px 0px 96px;
+    padding: 56px 0px 76px;
 }
 
 .container {
@@ -169,6 +169,12 @@ body.dark-theme .welcome.light {
 }
 .marketing-navigation .secondary a {
     padding:14px 0px;
+}
+.marketing-navigation .secondary li.selected {
+    border-bottom: 4px solid #329af0;
+}
+.marketing-navigation .secondary li.selected a {
+    font-weight: bold;
 }
 .marketing-navigation .secondary a.action-link {
     padding: 0px;

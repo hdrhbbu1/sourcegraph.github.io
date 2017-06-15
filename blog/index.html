@@ -1,0 +1,54 @@
+---
+layout: markdown
+title: Plain Text
+subtitle: The Official Sourcegraph Blog
+---
+
+<main class="content blog-container" role="main">
+
+
+<div class="cf">
+  {% assign lastloop = 0 %}
+  {% for post in paginator.posts %}
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    {% assign lastloop = loopindex %}
+    {% if loopindex == 1 %}
+      <div class="article-group">
+        <div class="articles">
+          {%  include
+              post.html
+              post=post %}
+    {% else %}
+          {%  include
+              post.html
+              post=post %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  {% if loopindex == 1 %}
+        </div>
+      </div>
+  {% endif %}
+  
+  </div>
+
+  <nav class="pagination" role="navigation">
+    {% if paginator.next_page %}
+      <a class="newer-posts" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">&larr; Older posts</a>
+    {% else %}
+      <a class="newer-posts disabled">&larr; Older posts</a>
+    {% endif %}
+    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="older-posts" href="{{ site.baseurl }}/blog">Newer posts &rarr;</a>
+      {% else %}
+        <a class="older-posts" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Newer posts &rarr;</a>
+      {% endif %}
+    {% else %}
+      <a class="older-posts disabled">Newer posts &rarr;</a>
+    {% endif %}
+  </nav>
+
+</main>

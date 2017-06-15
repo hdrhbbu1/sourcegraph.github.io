@@ -4,9 +4,9 @@
     </div>
     <div class="secondary">
         <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="/pricing">Pricing</a></li>
-            <li><a href="https://text.sourcegraph.com/" onclick="trackBlogClicked('header')">Blog</a></li>
+            <li {% if page.url contains "/about/" %}class="selected"{% endif %}><a href="/about">About</a></li>
+            <li {% if page.url contains "/pricing/" %}class="selected"{% endif %}><a href="/pricing">Pricing</a></li>
+            <li {% if page.url contains "/blog/" %}class="selected"{% endif %}><a href="/blog" onclick="trackBlogClicked('header')">Blog</a></li>
             <li><a class="action-link" data-type="app-link" href="https://sourcegraph.com/login" onclick="trackSigninClicked('header')" />Sign in</a></li>
             <li><a class="action-button" data-type="app-link" href="https://sourcegraph.com/login" onclick="trackSignupClicked('header')" />Sign up</a></li>
         </ul>

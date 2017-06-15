@@ -1,0 +1,14 @@
+<article class="post-listing" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+    <div class="article-item">
+        <header class="title">
+            <div class="title-inner">
+                <span itemprop="name" class="atitle"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></span>
+                <span class="ameta"><a href="{{site.baseurl}}{{post.url}}" itemprop="url"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time> by {{post.author}}</a></span>
+            </div>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+            <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+            <a class="readmore" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+        </section>
+    </div>
+</article>

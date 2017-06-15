@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head>
+    <body class="light-theme">
+
+        <div class="static-header">
+            <div class="marketing-navigation container welcome">
+                {% include navigation.html %}
+                <div class="centered cf markdown-header">
+                    <h1>{{page.title}}</h1>
+                    <h3>{{ page.date | date_to_long_string }} by {{page.author}}</h3>
+                    {% if page.subtitle %}
+                    <h3>{{page.subtitle}}</h3>
+                    {% endif %}
+                </div>
+            </div>    
+        </div>
+
+        <div class="container markdown-content padded">
+
+            <main class="content blog-container" role="main">
+              <article class="post">
+                <section class="post-content">
+                  <a name="topofpage"></a>
+                  {{content}}
+                </section>
+              </article>
+              <a class="readmore" href="/blog">Read more posts</a>
+            </main>
+
+        </div>
+        
+        {%  include
+            footer.html
+            action1="master-plan"
+            action2="jointheteam" %}
+
+        {% include scripts.html %}
+
+    </body>
+</html>

@@ -11,7 +11,7 @@ Sourcegraph integrates with most enterprise code hosts and review systems, inclu
 </div>
 
 ## Code intelligence
-Building software is key to your business. Sourcegraph helps development teams build better software faster
+Building software is key to your business. Sourcegraph helps development teams build better software faster.
 * Find and reuse existing code, within your enterprise or from open source.
 * Search for code enterprise-wide, instantly.
 * Explore code with full context and history 
@@ -26,7 +26,7 @@ Sourcegraph Enterprise uses the same scalable architecture as Sourcegraph.com, s
 Security is core to everything we do. Learn more at <a href="/security">sourcegraph.com/security</a>
 
 ## Sourcegraph Enterprise
-Use Sourcegraph with code hosted on your own servers
+Use Sourcegraph with code hosted on your own servers.
 * Enterprise integrations: GitHub Enterprise, Phabricator, and other tools
 * Instant code search and code intelligence
 * Dedicated Customer Success Manager

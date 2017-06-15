@@ -1,0 +1,105 @@
+.blog-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.article-group {
+
+}
+.articles {
+    display: flex;
+}
+
+article.post-listing {
+    flex: 0 0 auto;
+    background: white;
+    display: block;
+    width: calc(50% - 22px);
+    float: left;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+.post-listing .title {
+    text-align: center;
+    background: #151D28;
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 200px;
+}
+.post-listing .title .atitle a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.post-listing .title .ameta a {
+    color: white;
+    text-decoration: none;
+}
+.post-listing .title:hover a {
+    text-decoration: underline;
+}
+.post-listing .title-inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.readmore {
+    display:inline-block; 
+    clear: both;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 8px 16px;
+}
+
+.post-listing .post-excerpt {
+    padding: 24px;
+}
+
+article.post-listing:nth-child(2n-1) {
+    margin-right: 40px;
+}
+
+
+.post .image {
+    margin-bottom: 24px;
+}
+.post .image img {
+    display: block;
+    max-width: 100%;
+    clear: both;
+    margin-bottom: 12px;
+}
+.post .image .caption {
+    font-size: 14px;
+}
+
+.post pre {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 3px;
+    font-family: monospace;
+    margin-bottom: 24px;
+    overflow-x: auto;
+    
+}
+.post code {
+    background: white;
+    display:inline-block;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: monospace;
+}
