@@ -5,7 +5,7 @@
 setTimeout(function() {
 	const appId = 'SourcegraphWeb';
 	const env = window.location.origin === "https://about.sourcegraph.com" ? "production" : "development";
-	initializeTelligent(appId, env);
+	initializeTelligent(appId, env, true);
 	initializeIntercom(appId);
 	initializeGA();
 	
@@ -42,10 +42,19 @@ function trackIntercomClicked() {
 /**
  * Core event logging
  */
-function initializeTelligent(appId, env) {
+function initializeTelligent(appId, env, retry) {
 	if (!window.telligent) {
+		// If telligent isn't loaded, try again after a short pause
+		// This has proven to be an issue specifically on pages (mostly blog posts)
+		// with large image and video files that need to be downloaded
+		if (retry) { 
+			setTimeout(function() {
+				initializeTelligent(appId, env, false);
+			}, 1000);
+		}
 		return;
 	}
+
 	const telligentUrl = 'sourcegraph-logging.telligentdata.com';
 	window.telligent('newTracker', 'sg', telligentUrl, {
 		appId: appId,
@@ -62,7 +71,7 @@ function initializeTelligent(appId, env) {
 			webPage: true,
 		},
 	});
-	
+
 	// Track page view on page load
 	trackPageView();
 }
@@ -91,6 +100,13 @@ function trackPageView() {
 	if (!window.telligent) {
 		return;
 	}
+
+	props = {
+		platform: 'Web',
+		path_name: (window && window.location && window.location.pathname) ? window.location.pathname.slice(1) : '',
+		static: true,
+	};
+
 	// Remove leading and trailing slashes
 	let name = window.location.pathname.replace(/^\/|\/$/g, '');
 	// Remove "/index.html" file names
@@ -99,20 +115,21 @@ function trackPageView() {
 	name = name.replace(/(\/[^\/]+).html$/, (_, c) => { return c; });
 	// Replace "/"s with capitalized characters
 	name = name.replace(/\/(.)/g, (_, c) => { return c.toUpperCase(); });
+
 	if (name === '') {
 		name = 'ViewHome';
+	} else if (name.startsWith("blog")) {
+		name = 'ViewBlog'
+		const splitPath = window.location.pathname.replace(/^\/|\/$/g, '').split('/')
+		props['blog_article'] = splitPath[splitPath.length - 1];
 	} else {
 		// Pascal case
 		name = `View${name.charAt(0).toUpperCase()}${name.slice(1)}`;
 	}
 
-	props = {
-		page_name: name,
-		page_title: name,
-		platform: 'Web',
-		path_name: (window && window.location && window.location.pathname) ? window.location.pathname.slice(1) : '',
-		static: true,
-	};
+	props['page_name'] = name;
+	props['page_title'] = name;
+
 	window.telligent('track', 'view', props);
 	logToConsole(name, props);
 }
