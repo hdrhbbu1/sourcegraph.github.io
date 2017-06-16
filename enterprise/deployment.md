@@ -90,9 +90,9 @@ Optionally, Sourcegraph can also log anonymized frontend and extension usage dat
 Sourcegraph provides your organization with both an internal website for reading, searching, and exploring code, similar to [Sourcegraph.com](https://sourcegraph.com), and several tools to bring Code Intelligence from Sourcegraph to your team wherever they read code. Our integrations include:
 
 ### Browser extensions and code host integrations
-For on-premises code hosted on GitHub Enterprise, the popular [Sourcegraph Chrome extension](https://chrome.google.com/webstore/detail/sourcegraph-for-github/dgjhfomjieaadpoljlnidmbgkdffpack?hl=en) and [Sourcegraph Firefox extension](https://addons.mozilla.org/en-us/firefox/addon/sourcegraph-addon-for-github/) can be configured to communicate with your local Sourcegraph instance (rather than Sourcegraph.com), so that your users can get its benefits on your private code, too.
+For on-premises code hosted on GitHub Enterprise, the popular [Sourcegraph Chrome extension](https://chrome.google.com/webstore/detail/sourcegraph-for-github/dgjhfomjieaadpoljlnidmbgkdffpack?hl=en) and [Sourcegraph Firefox extension](https://addons.mozilla.org/en-us/firefox/addon/sourcegraph-addon-for-github/) can be configured to communicate with your local Sourcegraph instance (rather than Sourcegraph.com), so that your users can get their benefits on your private code, too.
 
-For companies using Phabricator or BitBucket Server, Code Intelligence from Sourcegraph can be provided directly on those platforms to all users by being installed as an integration. Just like the browser extensions on GitHub.com, these integrations embed hover tooltips, jump-to-definition links, and more inside the Phabricator and BitBucket Server code-viewing user interfaces. 
+For companies using Phabricator or Bitbucket Server, Code Intelligence from Sourcegraph can be provided directly on those platforms to all users by being installed as an integration. Just like the browser extensions on GitHub.com, these integrations embed hover tooltips, jump-to-definition links, and more inside the Phabricator and Bitbucket Server code-viewing user interfaces. 
 
 Sourcegraph can support several other on-premises code hosts and code reading platforms. If you have questions about another one, please [contact us](mailto:sales@sourcegraph.com).
 
