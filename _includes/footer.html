@@ -1,4 +1,5 @@
 <div class="footer container">
+    {% if include.action1 == "master-plan" %}
     <div class="footer-actions cf">
         <a class="action" href="/plan">
             <div class="action-content">
@@ -15,7 +16,13 @@
             <div class="action-icon sunglasses"></div>
         </a>
     </div>
+    {% endif %}
     <div class="footer-links cf">
+        <ul>
+            <li><a href="/integrations">Integrations</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
         <ul>
             <li><a href="/plan">Master plan</a></li>
             <li><a href="https://boards.greenhouse.io/sourcegraph" target="_blank" onclick="trackCareersClicked('footer')">Careers</a></li>
@@ -23,10 +30,6 @@
         <ul>
             <li><a href="/terms">Terms</a></li>
             <li><a href="/privacy">Privacy</a></li>
-        </ul>
-        <ul>
-            <li><a href="/pricing">Pricing</a></li>
-            <li><a href="/about">About</a></li>
         </ul>
         <ul>
 
